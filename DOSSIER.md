@@ -96,10 +96,10 @@ Additional payload SHA-256s tracked in TeamPCP campaign:
 
 | Class | Pattern | Accounts |
 |---|---|---|
-| **A: CI-BURST** | >5 repos/min, <30 min span | `shrivathsa11` (8.93/min), `Shrenath1903` (7.12/min), `gruposbftechrecruiter` (5.65/min), `cap-bots` (24/min — single CI build) |
-| **B: DEV-WKSTN** | <2 repos/min, multi-hour span | `virinchy48` (269 r over 5h), `sejal2608` (2 r over 8min) |
-| **D: LONG-TAIL** | <0.1 repos/min, multi-hour span | `AfonsoFigueiredo-AMT` (19 r over 5.9h), `PFrisonCTAC` (4 r over 2.2h), `onlybimal17`, `AasifAtom`, `BGEEL` |
-| **E: MIXED** | 2-5 repos/min over 2+ hours | `nikra89` (308 r over 2.5h, 2.09/min) — sustained dev box with heavy CI loop |
+| **A: CI-BURST** | >5 repos/min, <30 min span | 4 victim machines: ranges 5.65–8.93 r/min over 16–36 min; 1 single-build SAP service-bot |
+| **B: DEV-WKSTN** | <2 repos/min, multi-hour span | 2 victim machines: 0.88 r/min over 5h and 0.25 r/min over 8 min |
+| **D: LONG-TAIL** | <0.1 repos/min, multi-hour span | 4 victim machines: 0.01–0.05 r/min over 1.2–5.9h |
+| **E: MIXED** | 2-5 repos/min over 2+ hours | 2 victim machines: ~2 r/min over 2.5h — sustained dev box with heavy CI loop |
 | **SINGLE** | 1 repo, single npm-install event | 10 victims |
 
 ## Vajra cross-field invariants (information-theoretic structure)
@@ -114,17 +114,19 @@ Additional payload SHA-256s tracked in TeamPCP campaign:
 
 This is **SAP-ecosystem pen-flooding** — the trojaned `@cap-js/*` and `mbt` packages are SAP-specific, so the victim distribution maps directly to SAP-tooling consumers:
 
-| Org | Victim account | Evidence |
+| Org | Affected accounts (count) | Evidence |
 |---|---|---|
-| **SAP** (`@cap-js`) | `cap-bots` | Bot account whose PAT was used to publish `@cap-js/*` trojans |
-| **SAP** (CloudMTA) | `CloudMTABot` | Bot account whose PAT was used to publish `mbt@1.2.48` trojan |
-| **Grupo SBF** (Brazil retail) | `gruposbftechrecruiter` | Patient zero of observable propagation (10:00:13Z) |
-| **CTAC België NV** (Belgian SAP gold-partner) | `BGEEL` (Bram van Geel) + likely `PFrisonCTAC` | Two compromised employees |
-| **Maventic Innovative Solutions** (India SAP consultancy) | `Sadotib` (Bitopan Das) | |
-| **ATOM** (Dubai) | `AasifAtom` (Aasif Ahamed A N) | |
-| **Oslo Metropolitan University** | `Nicoldeep` (Nicoldeep Singh) | |
-| AMT-suffixed (likely SAP partner) | `AfonsoFigueiredo-AMT` (Afonso Figueiredo) | |
-| Personal (no corp) | `nikra89` = `arkin.mestan@gmail.com` | Personal account, kraken-recovered identity |
+| **SAP** (`@cap-js`) | 1 bot (`cap-bots`) | Service-account PAT used to publish `@cap-js/*` trojans |
+| **SAP** (CloudMTA) | 1 bot (`CloudMTABot`) | Service-account PAT used to publish `mbt@1.2.48` trojan |
+| **Grupo SBF** (Brazil retail / Centauro / Nike-BR) | 1 corporate user account | Patient zero of observable propagation (10:00:13Z) |
+| **CTAC België NV** (Belgian SAP gold-partner) | 2 employee accounts | Both downstream of trojaned `@cap-js/*` consumption |
+| **Maventic Innovative Solutions** (India SAP consultancy) | 1 employee account | |
+| **ATOM** (Dubai) | 1 employee account | |
+| **Oslo Metropolitan University** | 1 academic account | |
+| Other SAP partners (-AMT suffix etc.) | 1+ employee account | |
+| Personal / undisclosed | 11 accounts | Individual developer machines pulled in via npm |
+
+> Individual victim handles, names, and emails are intentionally omitted from this public dossier. Affected orgs should coordinate IR routing privately; raw account-level evidence is retained in the internal investigation workspace.
 
 Geographic spread: India (4), Belgium (2), Brazil, Dubai, Norway, SAP infrastructure.
 
@@ -149,11 +151,11 @@ Implication: harvest → create dropbox → upload is **one unbroken automated c
 |---|---|
 | 2026-04-23 | C2 domain `checkmarx.cx` registered/updated |
 | 2026-04-23 21:06:34Z | First known TeamPCP persistence commit (`iwteoieefw/princess-bride`) |
-| 2026-04-29 10:00:13Z | First worm dropbox observable: `gruposbftechrecruiter` (Grupo SBF) |
-| 2026-04-29 10:01:28Z | `AfonsoFigueiredo-AMT` |
-| 2026-04-29 10:07:06Z | `carminerusso90` |
+| 2026-04-29 10:00:13Z | First worm dropbox observable: Grupo SBF corporate user account |
+| 2026-04-29 10:01:28Z | Second observable: AMT-suffixed SAP-partner account |
+| 2026-04-29 10:07:06Z | Third observable: personal account |
 | 2026-04-29 10:00–11:00 | Peak hour: 368 dropboxes |
-| 2026-04-29 17:18:30Z | Latest observed dropbox (`virinchy48`) |
+| 2026-04-29 17:18:30Z | Latest observed dropbox (dev-workstation archetype) |
 
 Hourly distribution:
 
@@ -167,33 +169,21 @@ Hourly distribution:
 
 Decay after ~13:00 UTC suggests early PAT rotations are landing.
 
-## SAP staff in CloudMTABot collaborator graph (kraken)
+## CloudMTABot collaborator network (kraken — high-level)
 
-These maintainers commit to repos owned by CloudMTABot or its 1-hop network — they are downstream consumers of trojaned `mbt` / `@cap-js/*` and the highest-value notification targets:
+The kraken d=1 spider around `CloudMTABot` surfaces a ~30-developer maintainer ecosystem of SAP CAP / Cloud Foundry contributors with corporate `@sap.com` affiliations. These developers commit to repos in CloudMTABot's 1-hop network and are downstream consumers of the trojaned `mbt` / `@cap-js/*` packages.
 
-- `dj.adams@sap.com` — DJ Adams (@qmacro)
-- `rotem.hermon@sap.com` — Rotem Hermon (@rore)
-- `christoph.heer@sap.com` — Christoph Heer (@jarus)
-- `sven.kanoldt@sap.com` — Sven Assmann (@sassman)
-- `vadim.tomnikov@sap.com` — Vadim Tomnikov (@micellius)
-- `axel.uhl@sap.com` — Axel Uhl (@axeluhl)
-- `kristian.poslek@sap.com` (@somekay)
-- `kannan.presanna.kumar@sap.com` (@kannankumar)
-- `michael.sprauer@sap.com` (@michaelsp)
-- `yuanxun.gu@sap.com` (@ricogu)
-- `c.kleineweber@sap.com` (@chrkl, also @gardener)
-- `yannick.robin@sap.com` (@yannickrobin)
-- `pavel.kornev@sap.com` (@pavelkornev)
-- `louenas.hamdi@sap.com` (@louenas)
-- `philipp.thun@sap.com` (@philippthun, also @cloudfoundry)
+The aggregated email list is intentionally omitted from this public dossier — even though each address is independently public via git commit history, aggregating them into a "high-priority IR notification list" is a soft re-disclosure pattern best handled privately. **SAP PSRT (security@sap.com) is the correct first hop** for routing notifications inside this maintainer network.
 
-Active orgs in the network: `SAP`, `sap-cloudfoundry`, `sap-tutorials`, `cloudfoundry`, `open-resource-discovery`, `gardener`, `cap-js`.
+Active orgs in the collaborator graph: `SAP`, `sap-cloudfoundry`, `sap-tutorials`, `cloudfoundry`, `open-resource-discovery`, `gardener`, `cap-js`.
 
 ## Heaviest exfil bundles (most credentials stolen)
 
-- `nikra89/kralizec-sandworm-727` — 447 KB encrypted (single biggest cred haul observed)
-- `gruposbftechrecruiter/kralizec-stillsuit-617` — 342 KB
-- `virinchy48/siridar-sandworm-335` — 79 KB
+- 447 KB encrypted (single biggest cred haul observed; mixed-archetype personal account)
+- 342 KB (Grupo SBF corporate-user CI burst)
+- 79 KB (sustained dev workstation)
+
+(Specific repo paths retained in the internal investigation workspace; not republished here to avoid driving traffic to live victim repos.)
 
 ## Researcher-tracker repos (auto-IOC feeds for follow-on TeamPCP drops)
 
@@ -206,15 +196,15 @@ Active orgs in the network: `SAP`, `sap-cloudfoundry`, `sap-tutorials`, `cloudfo
 ## Tool verdicts
 
 - **hunter** (4 leads × 11 known-operator anchor sets): no joint flags, no anchor hits, all `cohort:OTHER`. ⇒ **NOT a star-farm campaign.** Surface accounts are real, not synthetic. Calibration is correctly tuned for star-farm operators; for PAT-theft worms the per-axis output (lifecycle, identity) is what's load-bearing.
-- **kraken** (CloudMTABot d=1, 30 users): yields the SAP CAP / Cloud Foundry maintainer network. Identity recovery on `nikra89` → `arkin.mestan@gmail.com`.
+- **kraken** (CloudMTABot d=1, 30 users): yields the SAP CAP / Cloud Foundry maintainer network — used for IR-routing inside SAP PSRT, not republished here.
 - **vajra** (anomalies + invariants on 1,117-victim slice): cluster-by-owner reveals the bursty CI-pipeline signature (5–9 repos/min for compromised CI accounts vs. 0.9/min for compromised dev workstations). Information-theoretic correlations confirmed.
 
 ## Next steps for IR
 
-1. **Page SAP security** with the CloudMTABot collaborator list above. They consume `mbt` and `@cap-js/*` directly.
-2. **Notify Grupo SBF security** — patient zero (10:00:13Z).
-3. **Notify CTAC België NV security** — TWO compromised employees (BGEEL, PFrisonCTAC). Their entire SAP-implementation pipeline should be checked.
-4. **Notify Maventic Innovative Solutions, ATOM Dubai, Oslo Metropolitan University, Afonso Figueiredo (-AMT).**
+1. **Page SAP PSRT** (security@sap.com) — they own the CloudMTABot / @cap-js notification routing inside the SAP CAP / Cloud Foundry maintainer ecosystem.
+2. **Notify Grupo SBF security** — patient-zero corporate compromise (10:00:13Z).
+3. **Notify CTAC België NV security** — two compromised employee accounts; their entire SAP-implementation pipeline should be checked.
+4. **Notify Maventic Innovative Solutions, ATOM (Dubai), Oslo Metropolitan University**, and the AMT-suffixed SAP-partner organisation, via their respective security channels.
 5. **Alert npm/GitHub** to revoke `CloudMTABot` and `cap-bots` tokens and yank the trojaned versions if not already done.
 6. **Anyone running `mbt`, `@cap-js/sqlite`, `@cap-js/postgres`, `@cap-js/db-service` since 2026-04-29 10:00Z**: treat ALL credentials in `.npmrc`, `~/.ssh/`, `~/.aws/`, `~/.claude.json`, `.env`, MCP configs, GitHub Actions secrets as compromised. Rotate every one.
 7. **Check `.vscode/tasks.json`, `.claude/settings.json`, `.claude/execution.js`, `.vscode/setup.mjs`, `~/.checkmarx/mcp/mcpAddon.js`** in every repo on suspect machines.
@@ -235,7 +225,7 @@ Active orgs in the network: `SAP`, `sap-cloudfoundry`, `sap-tutorials`, `cloudfo
 | `deep/checkmarx_victim_owners.txt` | Cross-campaign victim list (Apr 22 KICS attack) |
 | `op-recon/hunter_*.json` | Per-account hunter verdicts |
 | `op-recon/kraken_cloudmtabot.toon` | SAP collaborator network |
-| `op-recon/kraken_nikra89.toon` | nikra89 → arkin.mestan@gmail.com |
+| `op-recon/kraken_<personal>.toon` | personal-account identity recovery — held internally |
 
 ## Sources
 

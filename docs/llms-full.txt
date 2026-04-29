@@ -85,7 +85,7 @@ CloudMTABot — https://github.com/CloudMTABot
 - 5 public repos · 0 starred · 0 ssh keys · 0 gpg keys
 - hunter joint score: not-flagged across 11 known star-farm operator anchor sets, cohort:OTHER
 - ruling: legitimate SAP CloudMTA service-bot account, PAT/npm-token stolen — not synthetic-from-inception
-- collaborator network (per kraken d=1): SAP CAP / Cloud Foundry maintainer ecosystem, including dj.adams@sap.com (qmacro), rotem.hermon@sap.com (rore), christoph.heer@sap.com (jarus), sven.kanoldt@sap.com (sassman), vadim.tomnikov@sap.com (micellius), axel.uhl@sap.com (axeluhl), kristian.poslek@sap.com (somekay), kannan.presanna.kumar@sap.com (kannankumar), michael.sprauer@sap.com (michaelsp), yuanxun.gu@sap.com (ricogu), c.kleineweber@sap.com (chrkl), yannick.robin@sap.com (yannickrobin), pavel.kornev@sap.com (pavelkornev), louenas.hamdi@sap.com (louenas), philipp.thun@sap.com (philippthun)
+- collaborator network (per kraken d=1): a ~30-developer SAP CAP / Cloud Foundry maintainer ecosystem with `@sap.com` corporate affiliations. The aggregated email list is intentionally omitted from this public dossier. SAP PSRT (security@sap.com) is the correct first hop for routing notifications inside this maintainer network.
 - active orgs in the network: SAP, sap-cloudfoundry, sap-tutorials, cloudfoundry, open-resource-discovery, gardener, cap-js
 
 cap-bots — https://github.com/cap-bots
@@ -102,30 +102,33 @@ The 22 compromised accounts cluster by burst signature into five archetypes. Usi
 
 | Archetype | Threshold | Victims | Aggregate dropboxes | Aggregate KB | Notes |
 |---|---|---|---|---|---|
-| A: CI-BURST | repos_per_min > 5 | 4 | 505 | 4,221 | shrivathsa11 (8.93/min), Shrenath1903 (7.12/min), gruposbftechrecruiter (5.65/min), cap-bots (24/min — single CI build) |
-| B: DEV-WKSTN | repos_per_min < 2, span > 2h | 1 | 269 | 2,560 | virinchy48 — sustained dev box, multiple npm-installs over 5h |
-| C: SINGLE-CI | repo_count <= 5, span < 10min | 1 | 2 | 0 | sejal2608 |
-| D: LONG-TAIL | repos_per_min < 0.1, span > 2h | 4 | 28 | 49 | AfonsoFigueiredo-AMT (19 over 5.9h), PFrisonCTAC (4 over 2.2h), onlybimal17, AasifAtom |
-| E: MIXED | 2 < repos_per_min <= 5 | 2 | 311 | 2,444 | nikra89 (sustained dev box with heavy CI loop), BGEEL |
+| A: CI-BURST | repos_per_min > 5 | 4 | 505 | 4,221 | 5.65–8.93 r/min over 16–36 min; one single-build SAP service-bot at 24/min |
+| B: DEV-WKSTN | repos_per_min < 2, span > 2h | 1 | 269 | 2,560 | sustained dev box, multiple npm-installs over 5h |
+| C: SINGLE-CI | repo_count <= 5, span < 10min | 1 | 2 | 0 | one-off CI build event |
+| D: LONG-TAIL | repos_per_min < 0.1, span > 2h | 4 | 28 | 49 | 0.01–0.05 r/min over 1.2–5.9h |
+| E: MIXED | 2 < repos_per_min <= 5 | 2 | 311 | 2,444 | sustained dev box with heavy CI loop |
 | SINGLE | repo_count == 1 | 10 | 10 | 40 | individual one-off npm-install events |
 
 Heaviest exfil bundles (most credentials stolen on a single machine):
-- nikra89/kralizec-sandworm-727: 447 KB encrypted
-- gruposbftechrecruiter/kralizec-stillsuit-617: 342 KB
-- virinchy48/siridar-sandworm-335: 79 KB
+- 447 KB encrypted (mixed-archetype personal account)
+- 342 KB (Grupo SBF corporate-user CI burst)
+- 79 KB (sustained dev workstation)
+(Specific repo paths retained internally; not republished here to avoid driving traffic to live victim repos.)
 
 ## Disclosed corporate / infrastructure compromises
 
-| Org | Account | Industry | Country | Notes |
+| Org | Affected accounts | Industry | Country | Notes |
 |---|---|---|---|---|
-| @cap-js (SAP) | cap-bots | SAP CAP / npm tooling | — | Bot whose PAT shipped @cap-js/* trojans |
-| SAP CloudMTA | CloudMTABot | SAP MBT / npm tooling | — | Bot whose PAT shipped mbt 1.2.48 |
-| @grupo-sbf | gruposbftechrecruiter | retail (Centauro, Nike Brazil) | Brazil | Patient zero of observable propagation, 10:00:13Z |
-| CTAC België NV | BGEEL + likely PFrisonCTAC | SAP gold-partner implementer | Belgium | Two compromised employee accounts |
-| Maventic Innovative Solutions | Sadotib | SAP consultancy | India | |
-| ATOM | AasifAtom | SAP customer | UAE | |
-| Oslo Metropolitan University | Nicoldeep | academic | Norway | |
-| AMT (likely SAP partner) | AfonsoFigueiredo-AMT | SAP partner | — | Suffix convention |
+| @cap-js (SAP) | 1 service bot | SAP CAP / npm tooling | — | Bot whose PAT shipped @cap-js/* trojans |
+| SAP CloudMTA | 1 service bot | SAP MBT / npm tooling | — | Bot whose PAT shipped mbt 1.2.48 |
+| Grupo SBF | 1 corporate user account | retail (Centauro, Nike Brazil) | Brazil | Patient zero of observable propagation, 10:00:13Z |
+| CTAC België NV | 2 employee accounts | SAP gold-partner implementer | Belgium | |
+| Maventic Innovative Solutions | 1 employee account | SAP consultancy | India | |
+| ATOM | 1 employee account | SAP customer | UAE | |
+| Oslo Metropolitan University | 1 academic account | academic | Norway | |
+| AMT-suffixed (likely SAP partner) | 1 employee account | SAP partner | — | |
+
+Individual victim handles, names, and emails are intentionally omitted from this public dataset — affected orgs should coordinate IR routing privately.
 
 Geographic spread of the 22-victim cohort: India (4), Belgium (2), Brazil, UAE, Norway, SAP infrastructure, and undisclosed personal accounts.
 
@@ -173,7 +176,7 @@ Bun runtime: oven-sh/bun@1.3.13, fetched at install time from github.com/oven-sh
 3. Search file systems for the persistence files listed above. Wherever found, treat the host as fully compromised.
 4. Audit recent commits authored by claude@users.noreply.github.com with message "chore: update dependencies". Audit any commit message containing the strings "beautifulcastle" or "LongLiveTheResistanceAgainstMachines".
 5. SAP customers consuming @cap-js/* and mbt must check the affected versions and their lockfiles. Re-verify integrity from upstream after package versions are reverted by the registry.
-6. Notify SAP (already aware via cap-bots compromise), Grupo SBF (Brazil), CTAC België NV (Belgian SAP gold partner — two compromised employees), Maventic, ATOM, Oslo Metropolitan University.
+6. Notify via security channels: SAP PSRT (security@sap.com — already aware via cap-bots compromise), Grupo SBF (Brazil), CTAC België NV (Belgian SAP gold partner — two compromised employee accounts), Maventic, ATOM, Oslo Metropolitan University. Coordinate privately rather than via public callouts.
 
 ## Why hunter did not flag any of the surface accounts
 
