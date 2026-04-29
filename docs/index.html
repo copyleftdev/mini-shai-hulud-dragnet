@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0e14">
+<meta name="color-scheme" content="dark">
+
+<title>Mini Shai-Hulud Dragnet — TeamPCP npm Supply-Chain Worm (2026-04-29) | Threat Intelligence</title>
+<meta name="description" content="Real-time forensic dragnet of the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, full IOCs, archetype clustering, C2 infrastructure analysis (audit.checkmarx.cx / 94.154.172.43 IP Vendetta Inc.). Trojaned: @cap-js/sqlite, @cap-js/postgres, @cap-js/db-service, mbt, @bitwarden/cli.">
+<meta name="keywords" content="Mini Shai-Hulud, Shai-Hulud npm worm, TeamPCP, npm supply chain attack, @cap-js compromise, Bitwarden CLI hijack, audit.checkmarx.cx, supply chain forensics, threat intelligence, IOC, npm trojan, SAP CAP supply chain, Bun runtime evasion, CloudMTABot, cap-bots, IP Vendetta, AS209101, 94.154.172.43, Checkmarx KICS, npm worm 2026-04-29, beautifulcastle, LongLiveTheResistanceAgainstMachines, Dune dropbox repos">
+<meta name="author" content="chai_check dragnet">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="generator" content="op-recon + kraken + vajra + hunter">
+
+<link rel="canonical" href="https://github.com/chai-check/mini-shai-hulud-dragnet">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://github.com/chai-check/mini-shai-hulud-dragnet">
+<meta property="og:title" content="Mini Shai-Hulud Dragnet — TeamPCP npm Supply-Chain Worm (2026-04-29)">
+<meta property="og:description" content="Forensic dragnet of the 2026-04-29 npm supply-chain worm. 1,117 dropbox repos catalogued. Full IOCs, victim archetype clustering, C2 attribution to TeamPCP / IP Vendetta Inc. Seychelles.">
+<meta property="og:image" content="https://github.com/chai-check/mini-shai-hulud-dragnet/raw/main/docs/assets/og-image.svg">
+<meta property="og:image:alt" content="Mini Shai-Hulud Dragnet visualization showing 1,117 dropbox repositories created on 2026-04-29 by stolen GitHub PATs">
+<meta property="og:site_name" content="chai_check threat-intel">
+<meta property="article:published_time" content="2026-04-29T18:00:00Z">
+<meta property="article:author" content="chai_check">
+<meta property="article:section" content="Threat Intelligence">
+<meta property="article:tag" content="npm supply chain">
+<meta property="article:tag" content="TeamPCP">
+<meta property="article:tag" content="Shai-Hulud">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mini Shai-Hulud Dragnet — TeamPCP npm Worm Forensics">
+<meta name="twitter:description" content="1,117 dropbox repos / 22 compromised accounts catalogued from the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm. Full IOCs, archetype clustering, C2 attribution.">
+<meta name="twitter:image" content="https://github.com/chai-check/mini-shai-hulud-dragnet/raw/main/docs/assets/og-image.svg">
+<meta name="twitter:image:alt" content="Mini Shai-Hulud forensic dashboard">
+
+<!-- Schema.org JSON-LD: Dataset + TechArticle + ItemList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "#dataset",
+      "name": "Mini Shai-Hulud Dragnet (2026-04-29 npm Supply-Chain Worm)",
+      "alternateName": ["Mini Shai-Hulud IOC Dataset", "TeamPCP April 2026 IOC Bundle"],
+      "description": "Forensic snapshot of the 2026-04-29 npm supply-chain worm 'A Mini Shai-Hulud has Appeared'. Includes 1,117 catalogued dropbox repositories, 22 compromised account profiles, 47 indicators of compromise, full TeamPCP campaign chronology, and C2 infrastructure attribution.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {"@type": "Organization", "name": "chai_check threat-intel dragnet"},
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "keywords": ["npm supply chain attack", "Shai-Hulud worm", "TeamPCP", "@cap-js compromise", "Bitwarden CLI hijack", "supply chain forensics", "IOC", "threat intelligence"],
+      "distribution": [
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "iocs.jsonl", "contentUrl": "../data/iocs.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "victims.jsonl", "contentUrl": "../data/victims.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "dropboxes.jsonl", "contentUrl": "../data/dropboxes.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "timeline.jsonl", "contentUrl": "../data/timeline.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "actor.jsonl", "contentUrl": "../data/actor.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "affiliations.jsonl", "contentUrl": "../data/affiliations.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "archetypes.jsonl", "contentUrl": "../data/archetypes.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "name": "researcher_trackers.jsonl", "contentUrl": "../data/researcher_trackers.jsonl"}
+      ],
+      "variableMeasured": [
+        {"@type": "PropertyValue", "name": "dropbox_count", "description": "Number of victim dropbox repositories"},
+        {"@type": "PropertyValue", "name": "burst_repos_per_min", "description": "Repository creation rate per minute (machine archetype signal)"},
+        {"@type": "PropertyValue", "name": "total_payload_kb", "description": "Aggregate stolen-credential payload size per victim"},
+        {"@type": "PropertyValue", "name": "archetype", "description": "Victim machine archetype (CI-burst, dev workstation, single-shot, long-tail, mixed)"}
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "#article",
+      "headline": "Mini Shai-Hulud Dragnet — Forensic Analysis of the 2026-04-29 TeamPCP npm Worm",
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "author": {"@type": "Organization", "name": "chai_check"},
+      "publisher": {"@type": "Organization", "name": "chai_check threat-intel"},
+      "image": "https://github.com/chai-check/mini-shai-hulud-dragnet/raw/main/docs/assets/og-image.svg",
+      "articleSection": "Supply-Chain Threat Intelligence",
+      "about": [
+        {"@type": "Thing", "name": "npm supply chain attack"},
+        {"@type": "Thing", "name": "Shai-Hulud worm"},
+        {"@type": "Thing", "name": "TeamPCP"}
+      ],
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://github.com/chai-check/mini-shai-hulud-dragnet"},
+      "proficiencyLevel": "Expert",
+      "dependencies": "GitHub Code Search API, kraken, hunter, vajra"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "#trojaned-packages",
+      "name": "Trojaned npm packages (Mini Shai-Hulud, 2026-04-29)",
+      "itemListElement": [
+        {"@type": "SoftwareSourceCode", "name": "@cap-js/sqlite", "version": "2.2.2", "programmingLanguage": "JavaScript", "codeRepository": "https://www.npmjs.com/package/@cap-js/sqlite"},
+        {"@type": "SoftwareSourceCode", "name": "@cap-js/postgres", "version": "2.2.2", "programmingLanguage": "JavaScript", "codeRepository": "https://www.npmjs.com/package/@cap-js/postgres"},
+        {"@type": "SoftwareSourceCode", "name": "@cap-js/db-service", "version": "2.10.1", "programmingLanguage": "JavaScript", "codeRepository": "https://www.npmjs.com/package/@cap-js/db-service"},
+        {"@type": "SoftwareSourceCode", "name": "mbt", "version": "1.2.48", "programmingLanguage": "JavaScript", "codeRepository": "https://www.npmjs.com/package/mbt"},
+        {"@type": "SoftwareSourceCode", "name": "@bitwarden/cli", "version": "2026.4.0", "programmingLanguage": "JavaScript", "codeRepository": "https://www.npmjs.com/package/@bitwarden/cli"}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Threat Intelligence", "item": "https://github.com/chai-check"},
+        {"@type": "ListItem", "position": 2, "name": "Mini Shai-Hulud Dragnet"}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg-base: #0a0e14;
+  --bg-elevated: #131820;
+  --bg-card: #1a2030;
+  --bg-grid: #1f2735;
+  --text-base: #d8e0eb;
+  --text-muted: #7a869a;
+  --text-dim: #4a5468;
+  --signal-red: #ff5c5c;
+  --signal-red-glow: #ff5c5c33;
+  --electric-cyan: #5cdfff;
+  --electric-cyan-glow: #5cdfff33;
+  --amber: #ffb347;
+  --green: #5cffac;
+  --purple: #b388ff;
+  --orange: #ff8a4c;
+  --border: #2a3344;
+  --border-hot: #ff5c5c66;
+  --serif: ui-serif, Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", "Fira Code", ui-monospace, "SF Mono", Menlo, monospace;
+  --max: 1280px;
+  --golden: 1.618;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  background: var(--bg-base);
+  color: var(--text-base);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 80vw 40vh at 20% -10%, var(--signal-red-glow), transparent 50%),
+    radial-gradient(ellipse 60vw 50vh at 90% 20%, var(--electric-cyan-glow), transparent 50%),
+    var(--bg-base);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* ====== Layout ====== */
+.shell { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+section { padding: 96px 0; position: relative; }
+section + section { border-top: 1px solid var(--border); }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--electric-cyan);
+  margin-bottom: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.eyebrow::before {
+  content: "";
+  width: 14px;
+  height: 1px;
+  background: var(--electric-cyan);
+  display: inline-block;
+}
+
+h1, h2, h3, h4 { font-weight: 600; line-height: 1.15; letter-spacing: -0.015em; }
+h1 { font-size: clamp(40px, 5.6vw, 76px); }
+h2 { font-size: clamp(28px, 3.4vw, 44px); margin-bottom: 28px; }
+h3 { font-size: 20px; margin-bottom: 12px; }
+h4 { font-size: 14px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+
+p { color: var(--text-muted); max-width: 68ch; }
+.lead { font-size: clamp(18px, 1.6vw, 22px); color: var(--text-base); max-width: 56ch; }
+
+a { color: var(--electric-cyan); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .15s; }
+a:hover { border-bottom-color: currentColor; }
+
+code, kbd { font-family: var(--mono); font-size: 0.92em; }
+.kbd-ioc { display: inline-block; padding: 1px 6px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 3px; color: var(--signal-red); }
+
+/* ====== HERO ====== */
+.hero {
+  padding: 120px 0 64px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 56px;
+  align-items: end;
+}
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; } }
+
+.hero h1 .slash { color: var(--signal-red); font-style: italic; font-family: var(--serif); }
+.hero h1 .accent { color: var(--electric-cyan); }
+
+.hero-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 32px;
+}
+.hero-meta dt { font-family: var(--mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
+.hero-meta dd { font-size: 14px; color: var(--text-base); margin-top: 2px; }
+
+.hero-counter {
+  position: relative;
+  font-family: var(--mono);
+  text-align: right;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.counter-num {
+  font-size: clamp(72px, 11vw, 152px);
+  font-weight: 200;
+  line-height: 0.9;
+  color: var(--signal-red);
+  letter-spacing: -0.04em;
+  text-shadow: 0 0 80px var(--signal-red-glow);
+  font-variant-numeric: tabular-nums;
+}
+.counter-label { font-size: 13px; color: var(--text-muted); margin-top: 8px; text-transform: uppercase; letter-spacing: 0.1em; }
+.counter-pulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--signal-red);
+  margin-right: 6px;
+  animation: pulse 1.6s ease-in-out infinite;
+  vertical-align: middle;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 var(--signal-red); }
+  50% { opacity: 0.4; box-shadow: 0 0 0 8px transparent; }
+}
+
+.tldr {
+  border-left: 2px solid var(--signal-red);
+  padding: 16px 0 16px 24px;
+  margin-top: 36px;
+  background: linear-gradient(90deg, var(--signal-red-glow) 0%, transparent 30%);
+}
+
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 40px; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  background: var(--bg-elevated);
+  color: var(--text-base);
+  transition: all .15s;
+}
+.btn:hover { border-color: var(--electric-cyan); color: var(--electric-cyan); transform: translateY(-1px); }
+.btn-primary { background: var(--signal-red); border-color: var(--signal-red); color: #0a0e14; font-weight: 600; }
+.btn-primary:hover { background: transparent; color: var(--signal-red); transform: translateY(-1px); }
+
+/* ====== Stat strip ====== */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-top: 80px;
+}
+.stat {
+  padding: 24px 20px;
+  border-right: 1px solid var(--border);
+}
+.stat:last-child { border-right: 0; }
+.stat-num {
+  font-family: var(--mono);
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: var(--electric-cyan);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.stat-num.red { color: var(--signal-red); }
+.stat-num.amber { color: var(--amber); }
+.stat-label { font-family: var(--mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 8px; }
+
+/* ====== Charts ====== */
+.chart-wrap {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 24px;
+  margin-top: 32px;
+}
+.chart-wrap.full { padding: 32px; }
+.chart-title { font-size: 13px; font-family: var(--mono); color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+.chart-sub { font-size: 14px; color: var(--text-base); margin-bottom: 16px; }
+
+/* ====== Archetype cards ====== */
+.archetype-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.arch-card {
+  padding: 24px 20px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg-elevated);
+  position: relative;
+  overflow: hidden;
+}
+.arch-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--archetype-color, var(--electric-cyan));
+}
+.arch-card[data-arch^="A"] { --archetype-color: var(--signal-red); }
+.arch-card[data-arch^="B"] { --archetype-color: var(--amber); }
+.arch-card[data-arch^="C"] { --archetype-color: var(--purple); }
+.arch-card[data-arch^="D"] { --archetype-color: var(--electric-cyan); }
+.arch-card[data-arch^="E"] { --archetype-color: var(--orange); }
+.arch-card[data-arch^="S"] { --archetype-color: var(--green); }
+.arch-code { font-family: var(--mono); font-size: 11px; color: var(--archetype-color, var(--electric-cyan)); letter-spacing: 0.1em; }
+.arch-name { font-size: 18px; margin: 4px 0 12px; }
+.arch-stats { font-family: var(--mono); font-size: 12px; color: var(--text-muted); }
+.arch-stats span { color: var(--text-base); }
+.arch-rule {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+/* ====== IOC grid ====== */
+.ioc-table {
+  margin-top: 32px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.ioc-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 100px;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12.5px;
+  background: var(--bg-elevated);
+  align-items: center;
+  gap: 16px;
+}
+.ioc-row:last-child { border-bottom: 0; }
+.ioc-row:hover { background: var(--bg-card); }
+.ioc-kind {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--electric-cyan);
+}
+.ioc-kind[data-k="ipv4"], .ioc-kind[data-k="domain"], .ioc-kind[data-k="url"] { color: var(--signal-red); border-color: var(--border-hot); }
+.ioc-kind[data-k="sha256"], .ioc-kind[data-k="crypto_key"], .ioc-kind[data-k="crypto_salt"] { color: var(--amber); }
+.ioc-kind[data-k="package"] { color: var(--purple); }
+.ioc-kind[data-k="string"], .ioc-kind[data-k="regex"] { color: var(--green); }
+.ioc-value { color: var(--text-base); word-break: break-all; }
+.ioc-source { color: var(--text-dim); font-size: 11px; text-align: right; }
+
+.ioc-filter {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ioc-filter button {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: all .15s;
+}
+.ioc-filter button:hover, .ioc-filter button.active { border-color: var(--electric-cyan); color: var(--electric-cyan); }
+
+/* ====== Kill chain SVG box ====== */
+.killchain {
+  margin-top: 32px;
+  padding: 32px 24px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow-x: auto;
+}
+.killchain svg { display: block; margin: 0 auto; min-width: 720px; }
+
+/* ====== Timeline (chronology) ====== */
+.timeline-rail {
+  position: relative;
+  padding-left: 24px;
+  margin-top: 32px;
+  border-left: 1px solid var(--border);
+}
+.tl-event {
+  position: relative;
+  padding: 8px 0 28px 16px;
+}
+.tl-event::before {
+  content: "";
+  position: absolute;
+  left: -29px; top: 14px;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--bg-base);
+  border: 2px solid var(--electric-cyan);
+}
+.tl-event[data-kind="public_attribution"]::before,
+.tl-event[data-kind="trojan_publish"]::before { border-color: var(--signal-red); }
+.tl-event[data-kind="infrastructure"]::before,
+.tl-event[data-kind="persistence"]::before { border-color: var(--amber); }
+.tl-event[data-kind="propagation_observed"]::before,
+.tl-event[data-kind="sap_infrastructure_compromise"]::before { border-color: var(--orange); }
+.tl-ts { font-family: var(--mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.tl-detail { color: var(--text-base); margin-top: 4px; font-size: 14.5px; }
+.tl-tag { display: inline-block; font-family: var(--mono); font-size: 10.5px; padding: 1px 8px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 3px; margin-left: 8px; color: var(--electric-cyan); text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* ====== Footer ====== */
+footer {
+  padding: 56px 0 32px;
+  border-top: 1px solid var(--border);
+  margin-top: 64px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+footer .links { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 24px; }
+
+/* ====== Type-on / kinetic ====== */
+.kin-fade { opacity: 0; transform: translateY(12px); transition: opacity .8s ease, transform .8s ease; }
+.kin-fade.in { opacity: 1; transform: none; }
+
+/* Glitch micro-animation on hero */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+.scan-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: linear-gradient(transparent 0%, rgba(255, 92, 92, 0.02) 50%, transparent 100%);
+  background-size: 100% 8px;
+  opacity: 0.3;
+}
+
+/* SR only */
+.sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+</style>
+
+<!-- Plotly via CDN, lazy -->
+<script src="https://cdn.plot.ly/plotly-2.35.0.min.js" charset="utf-8" defer></script>
+</head>
+<body>
+<div class="scan-overlay" aria-hidden="true"></div>
+
+<!-- ============== HERO ============== -->
+<header class="shell hero">
+  <div>
+    <div class="eyebrow">Forensic Dragnet · 2026-04-29 · Active Campaign</div>
+    <h1>Mini Shai-Hulud<br><span class="slash">has appeared</span><span class="accent">.</span></h1>
+    <p class="lead" style="margin-top: 24px;">
+      A Bun-runtime npm supply-chain worm by threat actor <strong style="color:var(--signal-red)">TeamPCP</strong>
+      seeded SAP-ecosystem credential theft into <span style="color:var(--electric-cyan)">1,117 GitHub dropbox repositories</span>
+      across <span style="color:var(--electric-cyan)">22 compromised accounts</span> in a single 7-hour propagation window.
+    </p>
+    <div class="tldr">
+      <strong style="color:var(--text-base)">TL;DR.</strong>
+      Trojaned <code class="kbd-ioc">@cap-js/sqlite</code> <code class="kbd-ioc">@cap-js/postgres</code>
+      <code class="kbd-ioc">@cap-js/db-service</code> <code class="kbd-ioc">mbt</code> <code class="kbd-ioc">@bitwarden/cli</code>
+      ship encrypted credential bundles to <code class="kbd-ioc">audit.checkmarx.cx</code>
+      hosted at <code class="kbd-ioc">94.154.172.43</code> (AS209101 IP&nbsp;Vendetta&nbsp;Inc., Seychelles).
+      Same actor as the April 22 Checkmarx KICS Docker / VS Code attack.
+    </div>
+    <dl class="hero-meta">
+      <div><dt>Campaign</dt><dd>mini-shai-hulud</dd></div>
+      <div><dt>Actor</dt><dd>TeamPCP</dd></div>
+      <div><dt>First drop</dt><dd>2026-04-29 10:00:13Z</dd></div>
+      <div><dt>C2 endpoint</dt><dd>https://audit.checkmarx.cx/v1/telemetry</dd></div>
+      <div><dt>Bun runtime</dt><dd>v1.3.13</dd></div>
+      <div><dt>Repo marker</dt><dd>"A Mini Shai-Hulud has Appeared"</dd></div>
+    </dl>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="../data/iocs.jsonl">↓ Download IOC bundle (JSONL)</a>
+      <a class="btn" href="../DOSSIER.md">Read the dossier</a>
+      <a class="btn" href="#chronology">Campaign chronology</a>
+      <a class="btn" href="#iocs">IOC inventory</a>
+    </div>
+  </div>
+  <aside class="hero-counter" aria-label="Live dropbox count">
+    <div class="counter-num" id="counter" data-target="1117">0</div>
+    <div class="counter-label"><span class="counter-pulse" aria-hidden="true"></span>Dropbox repositories catalogued</div>
+  </aside>
+</header>
+
+<!-- ============== STAT STRIP ============== -->
+<div class="shell">
+  <div class="stats" role="region" aria-label="Top-level statistics">
+    <div class="stat"><div class="stat-num red" data-counter="1117">0</div><div class="stat-label">Dropbox repos</div></div>
+    <div class="stat"><div class="stat-num">22</div><div class="stat-label">Compromised accounts</div></div>
+    <div class="stat"><div class="stat-num">5</div><div class="stat-label">Trojaned npm packages</div></div>
+    <div class="stat"><div class="stat-num amber">47</div><div class="stat-label">Indicators of compromise</div></div>
+    <div class="stat"><div class="stat-num">5s</div><div class="stat-label">Median exfil drift</div></div>
+    <div class="stat"><div class="stat-num">7h</div><div class="stat-label">Propagation window</div></div>
+  </div>
+</div>
+
+<!-- ============== PROPAGATION TIMELINE ============== -->
+<section id="propagation" class="shell">
+  <div class="eyebrow">Section 01 · Worm propagation curve</div>
+  <h2>One unbroken hour-long burst, then decay</h2>
+  <p class="lead">368 dropboxes in the 10:00 hour, fading to single-digit by 17:00 UTC as victims rotate stolen PATs. Every dropbox traces back to a stolen GitHub Personal Access Token harvested from the trojaned npm install.</p>
+  <div class="chart-wrap full">
+    <div class="chart-title">Cumulative dropbox creation</div>
+    <div class="chart-sub">Each step is one stolen-PAT-driven repo. Hover for owner attribution.</div>
+    <div id="chart-cumulative" style="height: 460px;" aria-label="Cumulative dropbox creation timeline"></div>
+  </div>
+  <div class="chart-wrap full">
+    <div class="chart-title">Per-hour dropbox volume</div>
+    <div class="chart-sub">Worm peaks at 368 drops in hour 10; decay reflects victim PAT rotations landing.</div>
+    <div id="chart-hourly" style="height: 320px;"></div>
+  </div>
+</section>
+
+<!-- ============== ARCHETYPES ============== -->
+<section id="archetypes" class="shell">
+  <div class="eyebrow">Section 02 · Victim machine archetypes</div>
+  <h2>Five behavioral fingerprints from one worm</h2>
+  <p class="lead">Vajra cross-field invariants over the 22-victim cohort cluster cleanly by burst rate and span. Same worm, very different victim hosts.</p>
+  <div class="archetype-grid" id="archetype-grid"></div>
+  <div class="chart-wrap full">
+    <div class="chart-title">Burst rate × payload size — per-victim scatter</div>
+    <div class="chart-sub">Top-right cluster = CI-burst (high rate, heavy payload). Bottom-right = sustained dev workstations. Bottom-left = single-shot.</div>
+    <div id="chart-scatter" style="height: 480px;"></div>
+  </div>
+</section>
+
+<!-- ============== KILL CHAIN ============== -->
+<section id="killchain" class="shell">
+  <div class="eyebrow">Section 03 · Attack chain</div>
+  <h2>npm install → harvest → dropbox → C2</h2>
+  <p class="lead">Median 5-second drift from dropbox creation to credential upload. One unbroken automated chain on the victim machine — no batching, no delay.</p>
+  <div class="killchain">
+    <svg viewBox="0 0 920 340" role="img" aria-label="Mini Shai-Hulud kill chain diagram">
+      <defs>
+        <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,0 L10,5 L0,10 z" fill="#5cdfff"/>
+        </marker>
+        <marker id="arr-r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,0 L10,5 L0,10 z" fill="#ff5c5c"/>
+        </marker>
+        <linearGradient id="grad-c2" x1="0" x2="1" y1="0" y2="0">
+          <stop offset="0%" stop-color="#1a2030"/>
+          <stop offset="100%" stop-color="#3a1010"/>
+        </linearGradient>
+      </defs>
+      <style>
+        .node { fill: #131820; stroke: #2a3344; stroke-width: 1; rx: 6; }
+        .node-attacker { fill: url(#grad-c2); stroke: #ff5c5c; }
+        .node-victim { fill: #131820; stroke: #5cdfff; }
+        .node-c2 { fill: #1a0808; stroke: #ff5c5c; }
+        .label { fill: #d8e0eb; font-family: var(--sans, sans-serif); font-size: 13px; }
+        .label-mono { fill: #d8e0eb; font-family: var(--mono, monospace); font-size: 11px; }
+        .sub { fill: #7a869a; font-family: var(--mono, monospace); font-size: 10px; }
+        .sub-red { fill: #ff5c5c; font-family: var(--mono, monospace); font-size: 10px; }
+        .conn { fill: none; stroke: #5cdfff; stroke-width: 1.5; }
+        .conn-r { fill: none; stroke: #ff5c5c; stroke-width: 1.5; }
+        @keyframes flow { to { stroke-dashoffset: -16; } }
+        .conn, .conn-r { stroke-dasharray: 6 4; animation: flow 1.6s linear infinite; }
+      </style>
+
+      <!-- TeamPCP -->
+      <rect class="node node-attacker" x="20" y="20" width="200" height="80"/>
+      <text class="label" x="120" y="48" text-anchor="middle" font-weight="600">TeamPCP</text>
+      <text class="sub-red" x="120" y="68" text-anchor="middle">threat actor · public attribution</text>
+      <text class="sub" x="120" y="86" text-anchor="middle">2026-04-22 X/Twitter boast</text>
+
+      <!-- Stolen tokens -->
+      <rect class="node node-attacker" x="20" y="140" width="200" height="80"/>
+      <text class="label" x="120" y="166" text-anchor="middle" font-weight="600">Stolen npm tokens</text>
+      <text class="sub-red" x="120" y="184" text-anchor="middle">CloudMTABot · cap-bots</text>
+      <text class="sub" x="120" y="202" text-anchor="middle">via prior March 2026 ops</text>
+
+      <!-- Trojaned packages -->
+      <rect class="node node-victim" x="280" y="80" width="220" height="180"/>
+      <text class="label" x="390" y="106" text-anchor="middle" font-weight="600">Trojaned npm packages</text>
+      <text class="label-mono" x="390" y="130" text-anchor="middle">mbt 1.2.48</text>
+      <text class="label-mono" x="390" y="148" text-anchor="middle">@cap-js/sqlite 2.2.2</text>
+      <text class="label-mono" x="390" y="166" text-anchor="middle">@cap-js/postgres 2.2.2</text>
+      <text class="label-mono" x="390" y="184" text-anchor="middle">@cap-js/db-service 2.10.1</text>
+      <text class="label-mono" x="390" y="202" text-anchor="middle">@bitwarden/cli 2026.4.0</text>
+      <text class="sub" x="390" y="232" text-anchor="middle">setup.mjs preinstall</text>
+      <text class="sub" x="390" y="248" text-anchor="middle">SHA-256 4066781f…f45e34</text>
+
+      <!-- Bun runtime -->
+      <rect class="node" x="560" y="40" width="180" height="60"/>
+      <text class="label" x="650" y="64" text-anchor="middle">Bun runtime v1.3.13</text>
+      <text class="sub" x="650" y="84" text-anchor="middle">sandbox / detection evasion</text>
+
+      <!-- Victim machine -->
+      <rect class="node node-victim" x="560" y="130" width="180" height="80"/>
+      <text class="label" x="650" y="156" text-anchor="middle" font-weight="600">Victim machine</text>
+      <text class="sub" x="650" y="174" text-anchor="middle">npm install / preinstall</text>
+      <text class="sub" x="650" y="190" text-anchor="middle">harvest .npmrc, .ssh, .aws,</text>
+      <text class="sub" x="650" y="206" text-anchor="middle">.claude.json, GH PAT, MCP</text>
+
+      <!-- Dropbox repo -->
+      <rect class="node node-victim" x="560" y="240" width="180" height="80"/>
+      <text class="label" x="650" y="264" text-anchor="middle" font-weight="600">Dropbox repository</text>
+      <text class="label-mono" x="650" y="282" text-anchor="middle">{dune}-{dune}-NNN</text>
+      <text class="sub" x="650" y="298" text-anchor="middle">"A Mini Shai-Hulud</text>
+      <text class="sub" x="650" y="312" text-anchor="middle">has Appeared"</text>
+
+      <!-- C2 -->
+      <rect class="node node-c2" x="780" y="130" width="120" height="120"/>
+      <text class="label" x="840" y="156" text-anchor="middle" font-weight="600" fill="#ff5c5c">C2</text>
+      <text class="label-mono" x="840" y="178" text-anchor="middle" fill="#ff5c5c">audit.checkmarx.cx</text>
+      <text class="sub-red" x="840" y="196" text-anchor="middle">94.154.172.43</text>
+      <text class="sub" x="840" y="212" text-anchor="middle">AS209101 IP Vendetta</text>
+      <text class="sub" x="840" y="226" text-anchor="middle">Seychelles · BPH</text>
+      <text class="sub" x="840" y="244" text-anchor="middle">/v1/telemetry</text>
+
+      <!-- Edges -->
+      <path class="conn-r" d="M 220 60 Q 250 60 280 100" marker-end="url(#arr-r)"/>
+      <path class="conn-r" d="M 220 180 Q 250 180 280 170" marker-end="url(#arr-r)"/>
+      <path class="conn" d="M 500 130 Q 530 90 560 70" marker-end="url(#arr)"/>
+      <path class="conn" d="M 500 170 Q 530 170 560 170" marker-end="url(#arr)"/>
+      <path class="conn" d="M 650 210 L 650 240" marker-end="url(#arr)"/>
+      <path class="conn-r" d="M 740 280 Q 770 230 780 200" marker-end="url(#arr-r)"/>
+      <path class="conn-r" d="M 740 170 L 780 170" marker-end="url(#arr-r)"/>
+    </svg>
+  </div>
+  <p style="margin-top: 16px; font-family: var(--mono); font-size: 12px; color: var(--text-dim);">
+    Solid blue: software flow. Solid red: actor / exfil flow. Animated dashes indicate live data movement.
+  </p>
+</section>
+
+<!-- ============== CAMPAIGN CHRONOLOGY ============== -->
+<section id="chronology" class="shell">
+  <div class="eyebrow">Section 04 · TeamPCP campaign chronology</div>
+  <h2>~1 major drop per week, March → April 2026</h2>
+  <p class="lead">TeamPCP runs a sustained campaign cadence. Mini Shai-Hulud is the fourth observable operation; same C2 infrastructure spans the Checkmarx KICS attack one week prior.</p>
+  <div class="timeline-rail" id="timeline-rail"></div>
+</section>
+
+<!-- ============== IOC INVENTORY ============== -->
+<section id="iocs" class="shell">
+  <div class="eyebrow">Section 05 · IOC inventory</div>
+  <h2>47 indicators across 14 kinds</h2>
+  <p class="lead">Filter by kind. All indicators are sourced — see the source column. Full JSONL: <a href="../data/iocs.jsonl"><code>data/iocs.jsonl</code></a>.</p>
+  <div class="ioc-filter" id="ioc-filter"></div>
+  <div class="ioc-table" id="ioc-table"></div>
+</section>
+
+<!-- ============== ATTRIBUTION INFRA ============== -->
+<section id="infrastructure" class="shell">
+  <div class="eyebrow">Section 06 · C2 infrastructure</div>
+  <h2>Offshore bulletproof, registered six days before drop</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 32px;">
+    <div class="chart-wrap" style="margin: 0;"><h4>Apex domain</h4><div style="font-family: var(--mono); font-size: 18px; color: var(--signal-red); margin-top: 6px;">checkmarx.cx</div><p style="margin-top: 8px; font-size: 13px;">Updated 2026-04-23 — six days before the worm.<br>Registrar: CentralNic Ltd (UK)<br>NS: ns{1,2,3}.dnsowl.com (NameSilo)</p></div>
+    <div class="chart-wrap" style="margin: 0;"><h4>Resolver IP</h4><div style="font-family: var(--mono); font-size: 18px; color: var(--signal-red); margin-top: 6px;">94.154.172.43</div><p style="margin-top: 8px; font-size: 13px;">AS209101 IP Vendetta Inc.<br>Seychelles (Victoria)<br>Known offshore bulletproof hosting</p></div>
+    <div class="chart-wrap" style="margin: 0;"><h4>C2 endpoint</h4><div style="font-family: var(--mono); font-size: 14px; color: var(--signal-red); margin-top: 6px; word-break: break-all;">https://audit.checkmarx.cx/v1/telemetry</div><p style="margin-top: 8px; font-size: 13px;">Subdomain only resolves during exfil window — currently NXDOMAIN at rest. Operational tradecraft.</p></div>
+  </div>
+</section>
+
+<!-- ============== METHODOLOGY ============== -->
+<section id="methodology" class="shell">
+  <div class="eyebrow">Section 07 · Methodology</div>
+  <h2>How the dragnet was performed</h2>
+  <p class="lead">The dragnet uses a custom op-recon toolchain combining GitHub Code Search, identity-graph spider (kraken), per-account anomaly scoring (hunter), and structural triage (vajra).</p>
+  <ol style="margin-top: 32px; padding-left: 20px; max-width: 72ch; color: var(--text-base);">
+    <li style="margin-bottom: 12px;"><strong>Description-marker dragnet</strong> &mdash; GitHub Search API for <code>"A Mini Shai-Hulud has Appeared" in:description</code>; bypass the 1k-result cap by hour-bucketed pagination.</li>
+    <li style="margin-bottom: 12px;"><strong>Per-victim profile enrichment</strong> &mdash; pull GitHub user profile, repo count, follower/following counts. Cluster on company/location to surface corporate compromises.</li>
+    <li style="margin-bottom: 12px;"><strong>Burst-rate clustering</strong> &mdash; per-account aggregation produces (repo_count, span, repos_per_min, total_kb). Vajra invariants reveal <code>repo_count ↔ repos_per_min</code> strength 0.896 (compromise scales with automation).</li>
+    <li style="margin-bottom: 12px;"><strong>Hunter star-farm rule-out</strong> &mdash; hunter against 11 known-operator anchor sets (cfnb, 3xui, clashmeta, …). All 4 leads <code>flagged: false</code>, <code>cohort: OTHER</code>. Confirms PAT theft, not synthetic-from-inception.</li>
+    <li style="margin-bottom: 12px;"><strong>Kraken d=1 spider</strong> &mdash; map identity network around CloudMTABot to surface SAP CAP / Cloud Foundry maintainers needing IR notification.</li>
+    <li style="margin-bottom: 12px;"><strong>Exfil-time forensics</strong> &mdash; decode Unix-ms timestamps in <code>results-{ts}-N.json</code> filenames; compute drift vs repo creation time. Median 5s, p99 299s, 0 negative drifts.</li>
+    <li style="margin-bottom: 12px;"><strong>Cross-campaign pivot</strong> &mdash; same C2 / Bun version / repo regex bridges the April 22 Checkmarx KICS attack. Threat actor identified as TeamPCP via harekrishnarai/software-supply-chain-monitor.</li>
+    <li><strong>Privacy guardrail</strong> &mdash; corporate / infrastructure compromises disclosed by org name; individual personal-victim accounts retained in raw artefacts but redacted from the public dataset.</li>
+  </ol>
+  <p style="margin-top: 32px;">Full methodology &amp; dossier in the repo: <a href="../DOSSIER.md"><code>DOSSIER.md</code></a></p>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="shell">
+  <div class="links">
+    <a href="../README.md">README</a>
+    <a href="../DOSSIER.md">DOSSIER</a>
+    <a href="../data/">JSONL data</a>
+    <a href="./llms.txt">llms.txt</a>
+    <a href="https://github.com/chai-check/mini-shai-hulud-dragnet">GitHub repo</a>
+  </div>
+  <div>
+    <p style="color:var(--text-dim);">Mini Shai-Hulud Dragnet · Forensic snapshot 2026-04-29 · Data CC-BY-4.0 · Code MIT · Cite as: chai_check, "Mini Shai-Hulud Dragnet" (2026-04-29).</p>
+    <p style="color:var(--text-dim); margin-top: 8px;">Sources: StepSecurity, Aikido, Datadog Security Labs, OX Security, JFrog Research, kraven-security, harekrishnarai, mthcht, sam-caldwell, CISA. See <a href="../data/researcher_trackers.jsonl"><code>data/researcher_trackers.jsonl</code></a>.</p>
+    <p style="color:var(--text-dim); margin-top: 8px;">Toolchain: <a href="https://github.com/oven-sh/bun"><code>op-recon</code></a> orchestrator with <code>kraken</code> identity graph, <code>hunter</code> joint scorer, <code>vajra</code> structural triage, <code>ariadne</code> repo verdict, <code>entropyx</code> authorship dynamics.</p>
+  </div>
+</footer>
+
+<script>
+// ===================== Kinetic counter =====================
+function animateCounter(el, target, duration = 2400) {
+  const start = performance.now();
+  const easeOut = t => 1 - Math.pow(1 - t, 3);
+  function frame(now) {
+    const t = Math.min(1, (now - start) / duration);
+    el.textContent = Math.floor(target * easeOut(t)).toLocaleString();
+    if (t < 1) requestAnimationFrame(frame);
+    else el.textContent = target.toLocaleString();
+  }
+  requestAnimationFrame(frame);
+}
+document.querySelectorAll('[data-counter], #counter').forEach(el => {
+  const target = parseInt(el.dataset.counter || el.dataset.target, 10);
+  if (target) {
+    const io = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        animateCounter(el, target);
+        io.disconnect();
+      }
+    });
+    io.observe(el);
+  }
+});
+
+// ===================== Fade-in =====================
+document.querySelectorAll('.kin-fade').forEach(el => {
+  const io = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) { el.classList.add('in'); io.disconnect(); }
+  });
+  io.observe(el);
+});
+
+// ===================== Plotly setup =====================
+const PLOTLY_LAYOUT = {
+  paper_bgcolor: 'transparent',
+  plot_bgcolor: 'transparent',
+  font: { color: '#d8e0eb', family: 'JetBrains Mono, ui-monospace, monospace', size: 11 },
+  margin: { l: 56, r: 24, t: 16, b: 56 },
+  xaxis: { gridcolor: '#2a3344', zerolinecolor: '#2a3344', tickcolor: '#4a5468' },
+  yaxis: { gridcolor: '#2a3344', zerolinecolor: '#2a3344', tickcolor: '#4a5468' },
+  hoverlabel: { bgcolor: '#1a2030', bordercolor: '#5cdfff', font: { color: '#d8e0eb', family: 'JetBrains Mono, monospace' } },
+  showlegend: false
+};
+
+const ARCH_COLOR = {
+  'A:CI-BURST':   '#ff5c5c',
+  'B:DEV-WKSTN':  '#ffb347',
+  'C:SINGLE-CI':  '#b388ff',
+  'D:LONG-TAIL':  '#5cdfff',
+  'E:MIXED':      '#ff8a4c',
+  'SINGLE':       '#5cffac'
+};
+
+// Load all aggregations and render charts when Plotly is ready
+function whenPlotly(cb) {
+  if (window.Plotly) cb();
+  else setTimeout(() => whenPlotly(cb), 60);
+}
+
+async function load(path) {
+  try { const r = await fetch(path); return r.ok ? r.json() : null; }
+  catch (e) { return null; }
+}
+
+whenPlotly(async () => {
+  // ---------- Cumulative line ----------
+  const cum = await load('../data/aggregations/cumulative.json');
+  if (cum) {
+    const xs = cum.map(p => p.ts);
+    const ys = cum.map(p => p.cumulative);
+    const owners = cum.map(p => p.owner);
+    Plotly.newPlot('chart-cumulative', [{
+      x: xs, y: ys,
+      mode: 'lines',
+      line: { color: '#ff5c5c', width: 2, shape: 'hv' },
+      fill: 'tozeroy',
+      fillcolor: 'rgba(255,92,92,0.08)',
+      hovertext: owners.map((o, i) => `#${ys[i]} · ${o} · ${xs[i].slice(11,19)}`),
+      hoverinfo: 'text',
+      name: 'cumulative'
+    }], {
+      ...PLOTLY_LAYOUT,
+      xaxis: { ...PLOTLY_LAYOUT.xaxis, title: { text: 'UTC time', font: { color: '#7a869a', size: 11 } }, showgrid: false },
+      yaxis: { ...PLOTLY_LAYOUT.yaxis, title: { text: 'cumulative dropboxes', font: { color: '#7a869a', size: 11 } } }
+    }, { displayModeBar: false, responsive: true });
+  }
+
+  // ---------- Per-hour bars ----------
+  const hourly = await load('../data/aggregations/per_hour.json');
+  if (hourly) {
+    const xs = hourly.map(p => p.hour.slice(11,13) + ':00');
+    const ys = hourly.map(p => p.count);
+    Plotly.newPlot('chart-hourly', [{
+      x: xs, y: ys,
+      type: 'bar',
+      marker: {
+        color: ys,
+        colorscale: [[0, '#5cdfff'], [0.5, '#ffb347'], [1, '#ff5c5c']],
+        line: { color: '#0a0e14', width: 1 }
+      },
+      hovertemplate: '<b>%{x} UTC</b><br>%{y} dropboxes<extra></extra>'
+    }], {
+      ...PLOTLY_LAYOUT,
+      xaxis: { ...PLOTLY_LAYOUT.xaxis, title: { text: 'UTC hour (2026-04-29)', font: { color: '#7a869a', size: 11 } } },
+      yaxis: { ...PLOTLY_LAYOUT.yaxis, title: { text: 'dropbox count', font: { color: '#7a869a', size: 11 } } }
+    }, { displayModeBar: false, responsive: true });
+  }
+
+  // ---------- Archetype scatter ----------
+  const scat = await load('../data/aggregations/scatter.json');
+  if (scat) {
+    const traces = {};
+    scat.forEach(p => {
+      const a = p.archetype;
+      if (!traces[a]) traces[a] = { x: [], y: [], size: [], text: [], type: 'scatter', mode: 'markers',
+        name: a, marker: { color: ARCH_COLOR[a] || '#7a869a', size: [], line: { color: '#0a0e14', width: 1 }, opacity: 0.85 } };
+      traces[a].x.push(p.rpm);
+      traces[a].y.push(Math.max(p.total_kb, 0.1));
+      traces[a].marker.size.push(Math.sqrt(p.dropboxes) * 4 + 6);
+      traces[a].text.push(`${a}<br>${p.dropboxes} dropboxes<br>${p.total_kb} KB · ${p.span_min} min<br>${p.org}`);
+      traces[a].hovertemplate = '%{text}<extra></extra>';
+    });
+    Plotly.newPlot('chart-scatter', Object.values(traces), {
+      ...PLOTLY_LAYOUT,
+      showlegend: true,
+      legend: { orientation: 'h', y: -0.18, font: { color: '#d8e0eb', size: 10, family: 'JetBrains Mono, monospace' } },
+      xaxis: { ...PLOTLY_LAYOUT.xaxis, title: { text: 'burst (repos / minute)', font: { color: '#7a869a' } }, type: 'log' },
+      yaxis: { ...PLOTLY_LAYOUT.yaxis, title: { text: 'total payload (KB) · log', font: { color: '#7a869a' } }, type: 'log' }
+    }, { displayModeBar: false, responsive: true });
+  }
+
+  // ---------- Archetype cards ----------
+  const arch = await load('../data/aggregations/by_archetype.json');
+  const archMeta = await load('../data/archetypes.jsonl').then(r => null).catch(() => null);
+  // archetypes.jsonl is JSONL — fetch and parse line-by-line
+  const archMetaText = await (await fetch('../data/archetypes.jsonl')).text();
+  const archDefs = archMetaText.trim().split('\n').map(l => JSON.parse(l)).reduce((a, x) => ({...a, [x.code]: x}), {});
+
+  const grid = document.getElementById('archetype-grid');
+  if (arch && grid) {
+    arch.sort((a, b) => b.victim_count - a.victim_count).forEach(a => {
+      const def = archDefs[a.archetype] || {};
+      const card = document.createElement('div');
+      card.className = 'arch-card';
+      card.dataset.arch = a.archetype;
+      card.innerHTML = `
+        <div class="arch-code">${a.archetype}</div>
+        <div class="arch-name">${def.name || a.archetype}</div>
+        <div class="arch-stats">
+          <div>victims: <span>${a.victim_count}</span></div>
+          <div>dropboxes: <span>${a.total_dropboxes.toLocaleString()}</span></div>
+          <div>aggregate: <span>${a.total_kb.toLocaleString()} KB</span></div>
+          <div>median burst: <span>${a.median_burst}/min</span></div>
+        </div>
+        <div class="arch-rule">${def.threshold || ''}</div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  // ---------- Timeline rail ----------
+  const tlText = await (await fetch('../data/timeline.jsonl')).text();
+  const tlEvents = tlText.trim().split('\n').map(l => JSON.parse(l)).sort((a, b) => a.ts_utc.localeCompare(b.ts_utc));
+  const rail = document.getElementById('timeline-rail');
+  if (rail) {
+    tlEvents.forEach(e => {
+      const div = document.createElement('div');
+      div.className = 'tl-event';
+      div.dataset.kind = e.kind;
+      div.innerHTML = `
+        <div class="tl-ts">${e.ts_utc.replace('T', ' ').replace('Z', ' UTC')}</div>
+        <div class="tl-detail">${e.detail}<span class="tl-tag">${e.kind.replace(/_/g,' ')}</span></div>
+      `;
+      rail.appendChild(div);
+    });
+  }
+
+  // ---------- IOC inventory ----------
+  const iocText = await (await fetch('../data/iocs.jsonl')).text();
+  const iocs = iocText.trim().split('\n').map(l => JSON.parse(l));
+  const tbl = document.getElementById('ioc-table');
+  const filterBar = document.getElementById('ioc-filter');
+  const kinds = [...new Set(iocs.map(i => i.kind))].sort();
+
+  function render(filter) {
+    tbl.innerHTML = '';
+    iocs.filter(i => !filter || filter === 'all' || i.kind === filter).forEach(i => {
+      const row = document.createElement('div');
+      row.className = 'ioc-row';
+      const val = i.value || i.name || '';
+      const ver = i.version ? ` <span style="color:var(--text-muted)">@${i.version}</span>` : '';
+      row.innerHTML = `
+        <div><span class="ioc-kind" data-k="${i.kind}">${i.kind}</span></div>
+        <div class="ioc-value">${val}${ver}${i.role ? ` <span style="color:var(--text-dim)">· ${i.role}</span>` : ''}</div>
+        <div class="ioc-source">${i.source || ''}</div>
+      `;
+      tbl.appendChild(row);
+    });
+  }
+  // Filter buttons
+  ['all', ...kinds].forEach(k => {
+    const b = document.createElement('button');
+    b.textContent = k;
+    if (k === 'all') b.classList.add('active');
+    b.onclick = () => {
+      filterBar.querySelectorAll('button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      render(k);
+    };
+    filterBar.appendChild(b);
+  });
+  render('all');
+});
+</script>
+</body>
+</html>

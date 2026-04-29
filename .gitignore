@@ -1,0 +1,16 @@
+# Workspace artifacts not for publication
+.DS_Store
+*.tmp
+*.bak
+*.swp
+node_modules/
+.env
+.env.local
+
+# Local hunter / kraken / vajra cache
+.cache/
+
+# Raw dragnet artifacts intentionally kept LOCAL
+# (these contain unredacted account names; the published dataset is in data/)
+local/
+private/

@@ -1,0 +1,113 @@
+[
+  {
+    "kind": "author_email",
+    "count": 2,
+    "samples": [
+      "claude@users.noreply.github.com",
+      "dependabot[bot]@users.noreply.github.com"
+    ]
+  },
+  {
+    "kind": "crypto_key",
+    "count": 1,
+    "samples": [
+      "5012caa5847ae9261dfa16f91417042f367d6bed149c3b8af7a50b203a093007"
+    ]
+  },
+  {
+    "kind": "crypto_salt",
+    "count": 1,
+    "samples": [
+      "ctf-scramble-v2"
+    ]
+  },
+  {
+    "kind": "domain",
+    "count": 2,
+    "samples": [
+      "audit.checkmarx.cx",
+      "checkmarx.cx"
+    ]
+  },
+  {
+    "kind": "file_path",
+    "count": 7,
+    "samples": [
+      ".vscode/tasks.json",
+      ".claude/settings.json",
+      ".claude/execution.js"
+    ]
+  },
+  {
+    "kind": "git_branch",
+    "count": 1,
+    "samples": [
+      "dependabout/github_actions/format/setup-formatter"
+    ]
+  },
+  {
+    "kind": "github_account",
+    "count": 2,
+    "samples": [
+      "CloudMTABot",
+      "cap-bots"
+    ]
+  },
+  {
+    "kind": "ipv4",
+    "count": 1,
+    "samples": [
+      "94.154.172.43"
+    ]
+  },
+  {
+    "kind": "package",
+    "count": 11,
+    "samples": [
+      "mbt",
+      "@cap-js/sqlite",
+      "@cap-js/postgres"
+    ]
+  },
+  {
+    "kind": "regex",
+    "count": 3,
+    "samples": [
+      "/gh[op]_[A-Za-z0-9]{36}/g",
+      "/npm_[A-Za-z0-9]{36,}/g",
+      "(sardaukar|mentat|fremen|atreides|harkonnen|gesserit|prescient|fedaykin|tleilaxu|siridar|kanly|sayyadina|ghola|powindah|prana|kralizec)-(sandworm|ornithopter|heighliner|stillsuit|lasgun|sietch|melange|thumper|navigator|fedaykin|futar|slig|phibian|laza|cogitor|ghola)-\\d{1,3}"
+    ]
+  },
+  {
+    "kind": "runtime",
+    "count": 1,
+    "samples": [
+      "oven-sh/bun@1.3.13"
+    ]
+  },
+  {
+    "kind": "sha256",
+    "count": 8,
+    "samples": [
+      "4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34",
+      "80a3d2877813968ef847ae73b5eeeb70b9435254e74d7f07d8cf4057f0a710ac",
+      "6f933d00b7d05678eb43c90963a80b8947c4ae6830182f89df31da9f568fea95"
+    ]
+  },
+  {
+    "kind": "string",
+    "count": 6,
+    "samples": [
+      "A Mini Shai-Hulud has Appeared",
+      "Checkmarx Configuration Storage",
+      "beautifulcastle"
+    ]
+  },
+  {
+    "kind": "url",
+    "count": 1,
+    "samples": [
+      "https://audit.checkmarx.cx/v1/telemetry"
+    ]
+  }
+]

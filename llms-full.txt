@@ -1,0 +1,200 @@
+# Mini Shai-Hulud Dragnet — Full LLM Context Bundle
+
+This file consolidates the complete Mini Shai-Hulud dragnet for ingestion by language models that prefer plain-text over JSONL. For machine-readable structured data, prefer the JSONL files under `data/`.
+
+---
+
+## What happened
+
+On 2026-04-29 at 10:00:13 UTC, threat actor TeamPCP activated an npm supply-chain worm dubbed Mini Shai-Hulud (named for the GitHub repository description "A Mini Shai-Hulud has Appeared" it stamps on every credential dropbox).
+
+Within 7 hours, 1,117 GitHub dropbox repositories were catalogued, all created via stolen Personal Access Tokens from 22 compromised user accounts. Each dropbox holds an AES-256-GCM encrypted bundle of credentials harvested from the victim machine: GitHub PATs, npm tokens, AWS / Azure / GCP credentials, SSH keys, MCP configurations, .claude.json Claude Code auth tokens, and arbitrary .env-style secrets.
+
+The attack vector is npm preinstall lifecycle hooks in trojaned versions of SAP-ecosystem packages (mbt 1.2.48, @cap-js/sqlite 2.2.2, @cap-js/postgres 2.2.2, @cap-js/db-service 2.10.1) plus @bitwarden/cli 2026.4.0. The preinstall downloads the Bun JavaScript runtime (v1.3.13) at install time and uses it to run an obfuscated 11.6 MB credential-stealer payload — a deliberate sandbox-evasion choice (most npm/Node defenses watch Node, not Bun).
+
+Stolen credentials encrypt and POST to https://audit.checkmarx.cx/v1/telemetry — a typosquat of legitimate Checkmarx hosted at 94.154.172.43 on AS209101 IP Vendetta Inc., Seychelles (offshore bulletproof). The apex domain checkmarx.cx was registered/updated on 2026-04-23 — six days before the worm dropped — at CentralNic via DNSOwl / NameSilo nameservers.
+
+The stolen tokens are then used immediately to create the next layer of victim repositories (the dropboxes), with both Dune-vocabulary names like `kralizec-sandworm-727` matching the regex `(sardaukar|mentat|fremen|atreides|harkonnen|gesserit|prescient|fedaykin|tleilaxu|siridar|kanly|sayyadina|ghola|powindah|prana|kralizec)-(sandworm|ornithopter|heighliner|stillsuit|lasgun|sietch|melange|thumper|navigator|fedaykin|futar|slig|phibian|laza|cogitor|ghola)-\d{1,3}`. Median drift between repo creation and credential upload is 5 seconds, p99 299 seconds, with zero negative drifts — confirming a single unbroken automated chain on the victim machine, not a batched / staged exfil.
+
+## Threat actor: TeamPCP
+
+Public attribution: harekrishnarai/software-supply-chain-monitor logs TeamPCP's public X/Twitter boast on 2026-04-22: "Thank you OSS distribution for another very successful day at PCP inc."
+
+Prior known operations:
+- March 2026: CanisterWorm (npm)
+- March 2026: Checkmarx GitHub Actions compromise (foothold for the April campaigns)
+- April 22 2026: Checkmarx KICS Docker (v2.1.20, v2.1.21, alpine, debian, latest) + Checkmarx VS Code extensions (cx-dev-assist 1.17.0/1.19.0, ast-results 2.63.0/2.66.0). Same C2 audit.checkmarx.cx, same workflow injection .github/workflows/format-check.yml, same Bun runtime, same Dune-vocabulary repo names. Different description marker: "Checkmarx Configuration Storage".
+- April 29 2026 (this incident): Mini Shai-Hulud + Bitwarden CLI. SAP @cap-js packages and mbt + @bitwarden/cli.
+
+Cadence: ~1 major drop per week.
+
+Persistence-commit signatures used by TeamPCP across operations:
+- LongLiveTheResistanceAgainstMachines:<encoded-token> — found in 19 third-party threat-intel write-ups tracking the actor.
+- beautifulcastle <base64-c2-url>.<victim-token> — found live on iwteoieefw/princess-bride 2026-04-23T21:06:34Z (six minutes after the C2 domain went up; this is day-zero of the campaign infrastructure).
+
+## C2 infrastructure detail
+
+| Indicator | Value |
+|---|---|
+| Apex domain | checkmarx.cx |
+| Domain registrar | CentralNic Ltd (UK), via registry@key-systems.net |
+| Domain updated | 2026-04-23T14:56:15Z |
+| Nameservers | ns1.dnsowl.com, ns2.dnsowl.com, ns3.dnsowl.com (NameSilo) |
+| C2 hostname | audit.checkmarx.cx |
+| Resolver IP | 94.154.172.43 |
+| ASN | AS209101 |
+| AS organization | IP Vendetta Inc. |
+| Country | Seychelles (Victoria) |
+| C2 endpoint path | /v1/telemetry |
+| Operational pattern | subdomain only resolves during exfil window — currently NXDOMAIN at rest |
+
+Legitimate Checkmarx is at checkmarx.com / 141.193.213.20 — no relation. The .cx TLD typosquat plus the offshore bulletproof host is a classic supply-chain campaign infrastructure profile.
+
+## Trojaned packages
+
+| Package | Version | Registry | Status |
+|---|---|---|---|
+| mbt | 1.2.48 | npm | trojaned |
+| @cap-js/sqlite | 2.2.2 | npm | trojaned |
+| @cap-js/postgres | 2.2.2 | npm | trojaned |
+| @cap-js/db-service | 2.10.1 | npm | trojaned |
+| @bitwarden/cli | 2026.4.0 | npm | trojaned |
+| checkmarx/kics | v2.1.20, v2.1.21 (alpine, debian, latest) | docker | trojaned (April 22 campaign, same actor) |
+| checkmarx/cx-dev-assist | 1.17.0, 1.19.0 | vscode | trojaned (April 22 campaign) |
+| checkmarx/ast-results | 2.63.0, 2.66.0 | vscode | trojaned (April 22 campaign) |
+
+## File hashes (SHA-256)
+
+- Loader (setup.mjs, identical across all packages): 4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34
+- Payload (execution.js, mbt@1.2.48): 80a3d2877813968ef847ae73b5eeeb70b9435254e74d7f07d8cf4057f0a710ac
+- Payload (execution.js, @cap-js/sqlite@2.2.2): 6f933d00b7d05678eb43c90963a80b8947c4ae6830182f89df31da9f568fea95
+- Payload variants (per kraven-security IOC bundle): 18f784b3bc9a0bcdcb1a8d7f51bc5f54323fc40cbd874119354ab609bef6e4cb, 8605e365edf11160aad517c7d79a3b26b62290e5072ef97b102a01ddbb343f14, 167ce57ef59a32a6a0ef4137785828077879092d7f83ddbc1755d6e69116e0ad
+- Checkmarx KICS trojan ELF binary: 2a6a35f06118ff7d61bfd36a5788557b695095e7c9a609b4a01956883f146f50
+- mcpAddon.js (Checkmarx VS Code campaign): 24680027afadea90c7c713821e214b15cb6c922e67ac01109fb1edb3ee4741d9
+
+## Cryptographic identifiers
+
+- PBKDF2 master key: 5012caa5847ae9261dfa16f91417042f367d6bed149c3b8af7a50b203a093007
+- Custom cipher salt: ctf-scramble-v2
+
+## Compromised npm-publisher GitHub accounts
+
+CloudMTABot — https://github.com/CloudMTABot
+- email: cloudmtabot@gmail.com
+- created: 2019-04-30
+- 5 public repos · 0 starred · 0 ssh keys · 0 gpg keys
+- hunter joint score: not-flagged across 11 known star-farm operator anchor sets, cohort:OTHER
+- ruling: legitimate SAP CloudMTA service-bot account, PAT/npm-token stolen — not synthetic-from-inception
+- collaborator network (per kraken d=1): SAP CAP / Cloud Foundry maintainer ecosystem, including dj.adams@sap.com (qmacro), rotem.hermon@sap.com (rore), christoph.heer@sap.com (jarus), sven.kanoldt@sap.com (sassman), vadim.tomnikov@sap.com (micellius), axel.uhl@sap.com (axeluhl), kristian.poslek@sap.com (somekay), kannan.presanna.kumar@sap.com (kannankumar), michael.sprauer@sap.com (michaelsp), yuanxun.gu@sap.com (ricogu), c.kleineweber@sap.com (chrkl), yannick.robin@sap.com (yannickrobin), pavel.kornev@sap.com (pavelkornev), louenas.hamdi@sap.com (louenas), philipp.thun@sap.com (philippthun)
+- active orgs in the network: SAP, sap-cloudfoundry, sap-tutorials, cloudfoundry, open-resource-discovery, gardener, cap-js
+
+cap-bots — https://github.com/cap-bots
+- name: CAP Bot
+- company: @cap-js
+- blog: https://cap.cloud.sap
+- created: 2023-01-13
+- 2 public repos (both dropboxes from this incident)
+- ruling: SAP @cap-js bot, PAT stolen
+
+## Victim cohort: 22 accounts, behavioral clustering
+
+The 22 compromised accounts cluster by burst signature into five archetypes. Using cross-field invariants from vajra, repo_count ↔ repos_per_min has correlation strength 0.896 — the more the worm compromises a machine, the faster it bursts. CI compromise is both heavy and fast; dev workstations are sustained but slow.
+
+| Archetype | Threshold | Victims | Aggregate dropboxes | Aggregate KB | Notes |
+|---|---|---|---|---|---|
+| A: CI-BURST | repos_per_min > 5 | 4 | 505 | 4,221 | shrivathsa11 (8.93/min), Shrenath1903 (7.12/min), gruposbftechrecruiter (5.65/min), cap-bots (24/min — single CI build) |
+| B: DEV-WKSTN | repos_per_min < 2, span > 2h | 1 | 269 | 2,560 | virinchy48 — sustained dev box, multiple npm-installs over 5h |
+| C: SINGLE-CI | repo_count <= 5, span < 10min | 1 | 2 | 0 | sejal2608 |
+| D: LONG-TAIL | repos_per_min < 0.1, span > 2h | 4 | 28 | 49 | AfonsoFigueiredo-AMT (19 over 5.9h), PFrisonCTAC (4 over 2.2h), onlybimal17, AasifAtom |
+| E: MIXED | 2 < repos_per_min <= 5 | 2 | 311 | 2,444 | nikra89 (sustained dev box with heavy CI loop), BGEEL |
+| SINGLE | repo_count == 1 | 10 | 10 | 40 | individual one-off npm-install events |
+
+Heaviest exfil bundles (most credentials stolen on a single machine):
+- nikra89/kralizec-sandworm-727: 447 KB encrypted
+- gruposbftechrecruiter/kralizec-stillsuit-617: 342 KB
+- virinchy48/siridar-sandworm-335: 79 KB
+
+## Disclosed corporate / infrastructure compromises
+
+| Org | Account | Industry | Country | Notes |
+|---|---|---|---|---|
+| @cap-js (SAP) | cap-bots | SAP CAP / npm tooling | — | Bot whose PAT shipped @cap-js/* trojans |
+| SAP CloudMTA | CloudMTABot | SAP MBT / npm tooling | — | Bot whose PAT shipped mbt 1.2.48 |
+| @grupo-sbf | gruposbftechrecruiter | retail (Centauro, Nike Brazil) | Brazil | Patient zero of observable propagation, 10:00:13Z |
+| CTAC België NV | BGEEL + likely PFrisonCTAC | SAP gold-partner implementer | Belgium | Two compromised employee accounts |
+| Maventic Innovative Solutions | Sadotib | SAP consultancy | India | |
+| ATOM | AasifAtom | SAP customer | UAE | |
+| Oslo Metropolitan University | Nicoldeep | academic | Norway | |
+| AMT (likely SAP partner) | AfonsoFigueiredo-AMT | SAP partner | — | Suffix convention |
+
+Geographic spread of the 22-victim cohort: India (4), Belgium (2), Brazil, UAE, Norway, SAP infrastructure, and undisclosed personal accounts.
+
+## Social-graph negative finding
+
+Cross-victim follower / following intersection across the top-6 hitters: zero overlap. Top accounts have 0 followers and 0 following from each other. The worm propagates exclusively through `npm install` consumption — there is no social-vector amplification, no coordinated victim cohort. Each compromise is an independent node.
+
+## Persistence and runtime IOCs
+
+Workflow injection:
+- Branch: dependabout/github_actions/format/setup-formatter
+- File: .github/workflows/format-check.yml
+- Workflow name: "Formatter"
+- Artifact: format-results
+- Spoofed committer: dependabot[bot]@users.noreply.github.com
+- Secret-stealing primitive: VARIABLE_STORE / ${{ toJSON(secrets) }}
+
+Local persistence on victim:
+- .vscode/tasks.json with "runOn": "folderOpen"
+- .claude/settings.json SessionStart hook
+- .claude/execution.js (payload copy)
+- .claude/setup.mjs (loader copy)
+- .vscode/setup.mjs (loader copy)
+- ~/.checkmarx/mcp/mcpAddon.js (Checkmarx KICS variant — same actor)
+
+Spoofed commit author (besides dependabot):
+- claude@users.noreply.github.com with message "chore: update dependencies"
+
+Code strings:
+- "A Mini Shai-Hulud has Appeared" — dropbox repo description marker
+- "Checkmarx Configuration Storage" — equivalent marker for the April 22 KICS campaign
+- "Exiting as russian language detected!" — geolocation evasion log
+- __DAEMONIZED — runtime daemonization flag
+
+Extraction regexes embedded in payload:
+- /gh[op]_[A-Za-z0-9]{36}/g — GitHub PAT
+- /npm_[A-Za-z0-9]{36,}/g — npm token
+
+Bun runtime: oven-sh/bun@1.3.13, fetched at install time from github.com/oven-sh/bun/releases/download/bun-v1.3.13/
+
+## Defensive recommendations (IR)
+
+1. Rotate every credential reachable from any machine that ran `npm install` for mbt, @cap-js/sqlite, @cap-js/postgres, @cap-js/db-service, or @bitwarden/cli since 2026-04-29 10:00 UTC. This includes: .npmrc tokens, ~/.ssh/* private keys, ~/.aws/credentials, ~/.azure/* tokens, ~/.config/gcloud/* credentials, ~/.claude.json, ~/.claude/mcp.json, MCP server configs, GitHub Actions secrets, .env files, and any environment variable consumed during the install.
+2. Block egress to 94.154.172.43 and *.checkmarx.cx at network boundary. Watch DNS resolvers for resolution attempts (subdomain only resolves during exfil window — even a single resolution event is suspicious).
+3. Search file systems for the persistence files listed above. Wherever found, treat the host as fully compromised.
+4. Audit recent commits authored by claude@users.noreply.github.com with message "chore: update dependencies". Audit any commit message containing the strings "beautifulcastle" or "LongLiveTheResistanceAgainstMachines".
+5. SAP customers consuming @cap-js/* and mbt must check the affected versions and their lockfiles. Re-verify integrity from upstream after package versions are reverted by the registry.
+6. Notify SAP (already aware via cap-bots compromise), Grupo SBF (Brazil), CTAC België NV (Belgian SAP gold partner — two compromised employees), Maventic, ATOM, Oslo Metropolitan University.
+
+## Why hunter did not flag any of the surface accounts
+
+The op-recon hunter joint test is calibrated for star-farm operators (synthetic identities pre-positioned over years). Mini Shai-Hulud is a PAT-theft worm: surface accounts are real, pre-existing humans / bots whose tokens were stolen — not synthetic identities created for this campaign. Hunter correctly emits flagged: false / cohort: OTHER / 0 anchor hits across all four leads. The per-axis output (lifecycle: account_age_days; identity: keyless_with_activity) is what carries the load-bearing signal here, not the joint flag.
+
+## Researcher trackers (subscribe for follow-on TeamPCP drops)
+
+- StepSecurity Mini Shai-Hulud: https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared
+- Aikido Bitwarden CLI compromise: https://www.aikido.dev/blog/shai-hulud-npm-bitwarden-cli-compromise
+- Datadog Security Labs Shai-Hulud lineage: https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/
+- OX Security third-coming: https://www.ox.security/blog/shai-hulud-bitwarden-cli-supply-chain-attack/
+- harekrishnarai/software-supply-chain-monitor (TeamPCP attribution + Checkmarx KICS IOCs)
+- kraven-security/hunting-packages (network IOCs)
+- jfrog/research, mthcht/ThreatIntel-Reports, sam-caldwell/samcaldwell-info
+- CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem
+
+## Citation
+
+chai_check threat-intel dragnet (2026). Mini Shai-Hulud Dragnet. Published 2026-04-29. Data CC-BY-4.0. https://github.com/chai-check/mini-shai-hulud-dragnet
+
+## License
+
+- Data (data/*.jsonl): CC-BY-4.0 — attribution required.
+- Code (scripts/*, docs/index.html, etc.): MIT.

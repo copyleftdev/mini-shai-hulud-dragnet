@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite as below."
+title: "Mini Shai-Hulud Dragnet: Forensic Dataset for the 2026-04-29 TeamPCP npm Supply-Chain Worm"
+authors:
+  - name: "chai_check threat-intel dragnet"
+type: dataset
+date-released: 2026-04-29
+url: "https://github.com/chai-check/mini-shai-hulud-dragnet"
+repository-code: "https://github.com/chai-check/mini-shai-hulud-dragnet"
+license: CC-BY-4.0
+keywords:
+  - npm supply chain attack
+  - Shai-Hulud
+  - TeamPCP
+  - threat intelligence
+  - indicators of compromise
+  - SAP CAP
+  - Bitwarden CLI
+  - Bun runtime
+  - supply chain forensics
+abstract: >-
+  A forensic snapshot of the 2026-04-29 npm supply-chain worm "A Mini Shai-Hulud
+  has Appeared" by threat actor TeamPCP. The dataset includes 1,117 catalogued
+  dropbox repositories, 22 compromised account profiles, 47 indicators of
+  compromise across 14 kinds, full TeamPCP campaign chronology, and C2
+  infrastructure attribution to AS209101 IP Vendetta Inc., Seychelles.
+identifiers:
+  - type: url
+    value: "https://github.com/chai-check/mini-shai-hulud-dragnet"

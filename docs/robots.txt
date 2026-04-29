@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Encourage indexing of all primary surfaces
+Allow: /docs/
+Allow: /data/
+Allow: /docs/llms.txt
+Allow: /docs/llms-full.txt
+
+# LLM crawlers — explicit allow
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: ClaudeBot-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://chai-check.github.io/mini-shai-hulud-dragnet/sitemap.xml

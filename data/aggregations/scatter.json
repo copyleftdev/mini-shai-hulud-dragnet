@@ -1,0 +1,200 @@
+[
+  {
+    "owner": "E:MIXED",
+    "archetype": "E:MIXED",
+    "rpm": 2.09,
+    "total_kb": 2444,
+    "dropboxes": 308,
+    "span_min": 147,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "B:DEV-WKSTN",
+    "archetype": "B:DEV-WKSTN",
+    "rpm": 0.88,
+    "total_kb": 2560,
+    "dropboxes": 269,
+    "span_min": 303,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "A:CI-BURST",
+    "archetype": "A:CI-BURST",
+    "rpm": 5.65,
+    "total_kb": 2136,
+    "dropboxes": 204,
+    "span_min": 36,
+    "org": "@grupo-sbf"
+  },
+  {
+    "owner": "A:CI-BURST",
+    "archetype": "A:CI-BURST",
+    "rpm": 8.92,
+    "total_kb": 994,
+    "dropboxes": 150,
+    "span_min": 16,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "A:CI-BURST",
+    "archetype": "A:CI-BURST",
+    "rpm": 7.12,
+    "total_kb": 1091,
+    "dropboxes": 149,
+    "span_min": 20,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "D:LONG-TAIL",
+    "archetype": "D:LONG-TAIL",
+    "rpm": 0.05,
+    "total_kb": 49,
+    "dropboxes": 19,
+    "span_min": 353,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "D:LONG-TAIL",
+    "archetype": "D:LONG-TAIL",
+    "rpm": 0.03,
+    "total_kb": 0,
+    "dropboxes": 4,
+    "span_min": 131,
+    "org": "SAP_implementation_partner"
+  },
+  {
+    "owner": "D:LONG-TAIL",
+    "archetype": "D:LONG-TAIL",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 3,
+    "span_min": 342,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "E:MIXED",
+    "archetype": "E:MIXED",
+    "rpm": 0.04,
+    "total_kb": 0,
+    "dropboxes": 3,
+    "span_min": 73,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "C:SINGLE-CI",
+    "archetype": "C:SINGLE-CI",
+    "rpm": 0.24,
+    "total_kb": 0,
+    "dropboxes": 2,
+    "span_min": 8,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "A:CI-BURST",
+    "archetype": "A:CI-BURST",
+    "rpm": 24,
+    "total_kb": 0,
+    "dropboxes": 2,
+    "span_min": 0,
+    "org": "@cap-js (SAP)"
+  },
+  {
+    "owner": "D:LONG-TAIL",
+    "archetype": "D:LONG-TAIL",
+    "rpm": 0.01,
+    "total_kb": 0,
+    "dropboxes": 2,
+    "span_min": 147,
+    "org": "SAP_implementation_partner"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 12,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 28,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "SAP_consultancy"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "academic"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  },
+  {
+    "owner": "SINGLE",
+    "archetype": "SINGLE",
+    "rpm": 0,
+    "total_kb": 0,
+    "dropboxes": 1,
+    "span_min": 0,
+    "org": "personal/undisclosed"
+  }
+]

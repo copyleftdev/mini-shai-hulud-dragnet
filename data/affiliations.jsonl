@@ -1,0 +1,7 @@
+{"type":"affiliation","org":"@cap-js","sap_relationship":"first_party","industry":"SAP CAP / Cloud Application Programming Model","github_account":"cap-bots","compromise_role":"npm_publisher_account","ir_priority":"P0"}
+{"type":"affiliation","org":"SAP CloudMTA","sap_relationship":"first_party","industry":"SAP Multi-Target Application Build Tool","github_account":"CloudMTABot","compromise_role":"npm_publisher_account","ir_priority":"P0"}
+{"type":"affiliation","org":"@grupo-sbf","sap_relationship":"customer","industry":"retail (Centauro, Nike Brazil)","country":"Brazil","github_account":"gruposbftechrecruiter","compromise_role":"corporate_user_account","ir_priority":"P1","notes":"patient zero of observable propagation 2026-04-29 10:00:13Z"}
+{"type":"affiliation","org":"CTAC België NV","sap_relationship":"gold_partner_implementer","industry":"SAP implementation","country":"Belgium","compromise_role":"corporate_user_account","ir_priority":"P1","notes":"two compromised employee accounts"}
+{"type":"affiliation","org":"Maventic Innovative Solutions","sap_relationship":"consultancy","industry":"SAP consulting","country":"India","compromise_role":"corporate_user_account","ir_priority":"P2"}
+{"type":"affiliation","org":"ATOM","sap_relationship":"customer","country":"United Arab Emirates","compromise_role":"corporate_user_account","ir_priority":"P2"}
+{"type":"affiliation","org":"Oslo Metropolitan University","sap_relationship":"academic","country":"Norway","compromise_role":"academic_user_account","ir_priority":"P3"}

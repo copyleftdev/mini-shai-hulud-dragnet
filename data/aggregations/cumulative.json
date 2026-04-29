@@ -1,0 +1,5587 @@
+[
+  {
+    "ts": "2026-04-29T10:00:13Z",
+    "cumulative": 1,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:00:51Z",
+    "cumulative": 2,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:03Z",
+    "cumulative": 3,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:25Z",
+    "cumulative": 4,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:28Z",
+    "cumulative": 5,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:01:39Z",
+    "cumulative": 6,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:41Z",
+    "cumulative": 7,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:50Z",
+    "cumulative": 8,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:01:55Z",
+    "cumulative": 9,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:01Z",
+    "cumulative": 10,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:07Z",
+    "cumulative": 11,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:28Z",
+    "cumulative": 12,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:30Z",
+    "cumulative": 13,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:37Z",
+    "cumulative": 14,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:02:48Z",
+    "cumulative": 15,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:12Z",
+    "cumulative": 16,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:14Z",
+    "cumulative": 17,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:16Z",
+    "cumulative": 18,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:19Z",
+    "cumulative": 19,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:03:22Z",
+    "cumulative": 20,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:33Z",
+    "cumulative": 21,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:36Z",
+    "cumulative": 22,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:03:40Z",
+    "cumulative": 23,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:03:59Z",
+    "cumulative": 24,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:04:07Z",
+    "cumulative": 25,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:04:12Z",
+    "cumulative": 26,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:04:48Z",
+    "cumulative": 27,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:04:53Z",
+    "cumulative": 28,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:05:10Z",
+    "cumulative": 29,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:05:17Z",
+    "cumulative": 30,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:05:26Z",
+    "cumulative": 31,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:05:58Z",
+    "cumulative": 32,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:10Z",
+    "cumulative": 33,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:16Z",
+    "cumulative": 34,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:23Z",
+    "cumulative": 35,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:29Z",
+    "cumulative": 36,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:38Z",
+    "cumulative": 37,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:41Z",
+    "cumulative": 38,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:06:41Z",
+    "cumulative": 39,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:06:53Z",
+    "cumulative": 40,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:02Z",
+    "cumulative": 41,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:06Z",
+    "cumulative": 42,
+    "owner": "carminerusso90"
+  },
+  {
+    "ts": "2026-04-29T10:07:12Z",
+    "cumulative": 43,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:22Z",
+    "cumulative": 44,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:39Z",
+    "cumulative": 45,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:45Z",
+    "cumulative": 46,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:07:48Z",
+    "cumulative": 47,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:07:49Z",
+    "cumulative": 48,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:02Z",
+    "cumulative": 49,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:05Z",
+    "cumulative": 50,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:09Z",
+    "cumulative": 51,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:09Z",
+    "cumulative": 52,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:12Z",
+    "cumulative": 53,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:16Z",
+    "cumulative": 54,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:08:36Z",
+    "cumulative": 55,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:09:11Z",
+    "cumulative": 56,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:09:29Z",
+    "cumulative": 57,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:09:36Z",
+    "cumulative": 58,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:10:02Z",
+    "cumulative": 59,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:10:11Z",
+    "cumulative": 60,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:10:44Z",
+    "cumulative": 61,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:02Z",
+    "cumulative": 62,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:12Z",
+    "cumulative": 63,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:14Z",
+    "cumulative": 64,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:16Z",
+    "cumulative": 65,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:20Z",
+    "cumulative": 66,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:37Z",
+    "cumulative": 67,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:11:57Z",
+    "cumulative": 68,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:12:08Z",
+    "cumulative": 69,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:12:43Z",
+    "cumulative": 70,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:12:43Z",
+    "cumulative": 71,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:12:46Z",
+    "cumulative": 72,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:08Z",
+    "cumulative": 73,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:09Z",
+    "cumulative": 74,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:17Z",
+    "cumulative": 75,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:18Z",
+    "cumulative": 76,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:34Z",
+    "cumulative": 77,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:40Z",
+    "cumulative": 78,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:40Z",
+    "cumulative": 79,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:42Z",
+    "cumulative": 80,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:13:54Z",
+    "cumulative": 81,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:01Z",
+    "cumulative": 82,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:10Z",
+    "cumulative": 83,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:14Z",
+    "cumulative": 84,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:20Z",
+    "cumulative": 85,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:23Z",
+    "cumulative": 86,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:39Z",
+    "cumulative": 87,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:43Z",
+    "cumulative": 88,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:43Z",
+    "cumulative": 89,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:14:56Z",
+    "cumulative": 90,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:15:11Z",
+    "cumulative": 91,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:15:14Z",
+    "cumulative": 92,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:15:22Z",
+    "cumulative": 93,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:15:48Z",
+    "cumulative": 94,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:15:48Z",
+    "cumulative": 95,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:16:23Z",
+    "cumulative": 96,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:16:33Z",
+    "cumulative": 97,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:16:46Z",
+    "cumulative": 98,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:16:55Z",
+    "cumulative": 99,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:16:58Z",
+    "cumulative": 100,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:17:28Z",
+    "cumulative": 101,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:17:42Z",
+    "cumulative": 102,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:17:46Z",
+    "cumulative": 103,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:17:49Z",
+    "cumulative": 104,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:18:04Z",
+    "cumulative": 105,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:18Z",
+    "cumulative": 106,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:19Z",
+    "cumulative": 107,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:20Z",
+    "cumulative": 108,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:20Z",
+    "cumulative": 109,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:27Z",
+    "cumulative": 110,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:32Z",
+    "cumulative": 111,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:35Z",
+    "cumulative": 112,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:42Z",
+    "cumulative": 113,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:18:54Z",
+    "cumulative": 114,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:19:35Z",
+    "cumulative": 115,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:19:44Z",
+    "cumulative": 116,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:19:58Z",
+    "cumulative": 117,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:00Z",
+    "cumulative": 118,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:09Z",
+    "cumulative": 119,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:24Z",
+    "cumulative": 120,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:27Z",
+    "cumulative": 121,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:29Z",
+    "cumulative": 122,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:31Z",
+    "cumulative": 123,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:20:38Z",
+    "cumulative": 124,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:21:06Z",
+    "cumulative": 125,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:21:16Z",
+    "cumulative": 126,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:21:32Z",
+    "cumulative": 127,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:21:33Z",
+    "cumulative": 128,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:00Z",
+    "cumulative": 129,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:24Z",
+    "cumulative": 130,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:30Z",
+    "cumulative": 131,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:33Z",
+    "cumulative": 132,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:43Z",
+    "cumulative": 133,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:44Z",
+    "cumulative": 134,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:51Z",
+    "cumulative": 135,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:22:59Z",
+    "cumulative": 136,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:01Z",
+    "cumulative": 137,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:03Z",
+    "cumulative": 138,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:04Z",
+    "cumulative": 139,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:20Z",
+    "cumulative": 140,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:27Z",
+    "cumulative": 141,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:32Z",
+    "cumulative": 142,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:47Z",
+    "cumulative": 143,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:51Z",
+    "cumulative": 144,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:23:52Z",
+    "cumulative": 145,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:25Z",
+    "cumulative": 146,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:46Z",
+    "cumulative": 147,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:53Z",
+    "cumulative": 148,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:54Z",
+    "cumulative": 149,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:54Z",
+    "cumulative": 150,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:24:55Z",
+    "cumulative": 151,
+    "owner": "AasifAtom"
+  },
+  {
+    "ts": "2026-04-29T10:25:38Z",
+    "cumulative": 152,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:25:43Z",
+    "cumulative": 153,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:25:54Z",
+    "cumulative": 154,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:25:54Z",
+    "cumulative": 155,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:26:06Z",
+    "cumulative": 156,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:26:30Z",
+    "cumulative": 157,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:27:01Z",
+    "cumulative": 158,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:27:14Z",
+    "cumulative": 159,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:27:27Z",
+    "cumulative": 160,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:27:39Z",
+    "cumulative": 161,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:28:05Z",
+    "cumulative": 162,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:28:09Z",
+    "cumulative": 163,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:28:26Z",
+    "cumulative": 164,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:28:45Z",
+    "cumulative": 165,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:28:52Z",
+    "cumulative": 166,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:02Z",
+    "cumulative": 167,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:08Z",
+    "cumulative": 168,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:13Z",
+    "cumulative": 169,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:27Z",
+    "cumulative": 170,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:29Z",
+    "cumulative": 171,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:41Z",
+    "cumulative": 172,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:47Z",
+    "cumulative": 173,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:50Z",
+    "cumulative": 174,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:56Z",
+    "cumulative": 175,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:29:59Z",
+    "cumulative": 176,
+    "owner": "AasifAtom"
+  },
+  {
+    "ts": "2026-04-29T10:30:44Z",
+    "cumulative": 177,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:14Z",
+    "cumulative": 178,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:24Z",
+    "cumulative": 179,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:30Z",
+    "cumulative": 180,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:39Z",
+    "cumulative": 181,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:44Z",
+    "cumulative": 182,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:31:47Z",
+    "cumulative": 183,
+    "owner": "GokulPrasath22"
+  },
+  {
+    "ts": "2026-04-29T10:31:59Z",
+    "cumulative": 184,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:04Z",
+    "cumulative": 185,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:04Z",
+    "cumulative": 186,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:16Z",
+    "cumulative": 187,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:18Z",
+    "cumulative": 188,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:22Z",
+    "cumulative": 189,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:24Z",
+    "cumulative": 190,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:32:32Z",
+    "cumulative": 191,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:27Z",
+    "cumulative": 192,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:37Z",
+    "cumulative": 193,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:43Z",
+    "cumulative": 194,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:43Z",
+    "cumulative": 195,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:45Z",
+    "cumulative": 196,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:50Z",
+    "cumulative": 197,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:33:53Z",
+    "cumulative": 198,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:05Z",
+    "cumulative": 199,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:05Z",
+    "cumulative": 200,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:06Z",
+    "cumulative": 201,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:15Z",
+    "cumulative": 202,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:27Z",
+    "cumulative": 203,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:29Z",
+    "cumulative": 204,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:39Z",
+    "cumulative": 205,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:34:55Z",
+    "cumulative": 206,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:35:02Z",
+    "cumulative": 207,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:35:33Z",
+    "cumulative": 208,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:35:36Z",
+    "cumulative": 209,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:35:53Z",
+    "cumulative": 210,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:36:06Z",
+    "cumulative": 211,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:36:11Z",
+    "cumulative": 212,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:36:14Z",
+    "cumulative": 213,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:36:19Z",
+    "cumulative": 214,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:36:19Z",
+    "cumulative": 215,
+    "owner": "gruposbftechrecruiter"
+  },
+  {
+    "ts": "2026-04-29T10:38:29Z",
+    "cumulative": 216,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:17Z",
+    "cumulative": 217,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:19Z",
+    "cumulative": 218,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:22Z",
+    "cumulative": 219,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:31Z",
+    "cumulative": 220,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:42Z",
+    "cumulative": 221,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:43Z",
+    "cumulative": 222,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:43Z",
+    "cumulative": 223,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:39:58Z",
+    "cumulative": 224,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:00Z",
+    "cumulative": 225,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:03Z",
+    "cumulative": 226,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:04Z",
+    "cumulative": 227,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:07Z",
+    "cumulative": 228,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:17Z",
+    "cumulative": 229,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:22Z",
+    "cumulative": 230,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:24Z",
+    "cumulative": 231,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:38Z",
+    "cumulative": 232,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:41Z",
+    "cumulative": 233,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:42Z",
+    "cumulative": 234,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:44Z",
+    "cumulative": 235,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:49Z",
+    "cumulative": 236,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:55Z",
+    "cumulative": 237,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:40:56Z",
+    "cumulative": 238,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:14Z",
+    "cumulative": 239,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:16Z",
+    "cumulative": 240,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:17Z",
+    "cumulative": 241,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:21Z",
+    "cumulative": 242,
+    "owner": "miaxxxxxx"
+  },
+  {
+    "ts": "2026-04-29T10:41:21Z",
+    "cumulative": 243,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:22Z",
+    "cumulative": 244,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:25Z",
+    "cumulative": 245,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:27Z",
+    "cumulative": 246,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:29Z",
+    "cumulative": 247,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:29Z",
+    "cumulative": 248,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:31Z",
+    "cumulative": 249,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:31Z",
+    "cumulative": 250,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:33Z",
+    "cumulative": 251,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:36Z",
+    "cumulative": 252,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:38Z",
+    "cumulative": 253,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:38Z",
+    "cumulative": 254,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:39Z",
+    "cumulative": 255,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:46Z",
+    "cumulative": 256,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:49Z",
+    "cumulative": 257,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:49Z",
+    "cumulative": 258,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:51Z",
+    "cumulative": 259,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:51Z",
+    "cumulative": 260,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:57Z",
+    "cumulative": 261,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:41:57Z",
+    "cumulative": 262,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:09Z",
+    "cumulative": 263,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:11Z",
+    "cumulative": 264,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:16Z",
+    "cumulative": 265,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:34Z",
+    "cumulative": 266,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:39Z",
+    "cumulative": 267,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:41Z",
+    "cumulative": 268,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:43Z",
+    "cumulative": 269,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:50Z",
+    "cumulative": 270,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:42:54Z",
+    "cumulative": 271,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:11Z",
+    "cumulative": 272,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:23Z",
+    "cumulative": 273,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:29Z",
+    "cumulative": 274,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:42Z",
+    "cumulative": 275,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:56Z",
+    "cumulative": 276,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:43:57Z",
+    "cumulative": 277,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:00Z",
+    "cumulative": 278,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:09Z",
+    "cumulative": 279,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:36Z",
+    "cumulative": 280,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:37Z",
+    "cumulative": 281,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:42Z",
+    "cumulative": 282,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:42Z",
+    "cumulative": 283,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:44:48Z",
+    "cumulative": 284,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:45:22Z",
+    "cumulative": 285,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:45:41Z",
+    "cumulative": 286,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:46:03Z",
+    "cumulative": 287,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:46:35Z",
+    "cumulative": 288,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:46:38Z",
+    "cumulative": 289,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:46:40Z",
+    "cumulative": 290,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:46:50Z",
+    "cumulative": 291,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:01Z",
+    "cumulative": 292,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:22Z",
+    "cumulative": 293,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:28Z",
+    "cumulative": 294,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:32Z",
+    "cumulative": 295,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:35Z",
+    "cumulative": 296,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:41Z",
+    "cumulative": 297,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:42Z",
+    "cumulative": 298,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:43Z",
+    "cumulative": 299,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:44Z",
+    "cumulative": 300,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:49Z",
+    "cumulative": 301,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:47:53Z",
+    "cumulative": 302,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:13Z",
+    "cumulative": 303,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:13Z",
+    "cumulative": 304,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:32Z",
+    "cumulative": 305,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:33Z",
+    "cumulative": 306,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:33Z",
+    "cumulative": 307,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:35Z",
+    "cumulative": 308,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:38Z",
+    "cumulative": 309,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:39Z",
+    "cumulative": 310,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:40Z",
+    "cumulative": 311,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:43Z",
+    "cumulative": 312,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:48Z",
+    "cumulative": 313,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:48:50Z",
+    "cumulative": 314,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:12Z",
+    "cumulative": 315,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:13Z",
+    "cumulative": 316,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:24Z",
+    "cumulative": 317,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:38Z",
+    "cumulative": 318,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:46Z",
+    "cumulative": 319,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:47Z",
+    "cumulative": 320,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:49Z",
+    "cumulative": 321,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:52Z",
+    "cumulative": 322,
+    "owner": "BGEEL"
+  },
+  {
+    "ts": "2026-04-29T10:49:54Z",
+    "cumulative": 323,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:56Z",
+    "cumulative": 324,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:49:56Z",
+    "cumulative": 325,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:50:06Z",
+    "cumulative": 326,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:50:13Z",
+    "cumulative": 327,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:50:15Z",
+    "cumulative": 328,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:50:26Z",
+    "cumulative": 329,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:50:50Z",
+    "cumulative": 330,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:01Z",
+    "cumulative": 331,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:11Z",
+    "cumulative": 332,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:20Z",
+    "cumulative": 333,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:22Z",
+    "cumulative": 334,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:29Z",
+    "cumulative": 335,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:40Z",
+    "cumulative": 336,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:55Z",
+    "cumulative": 337,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:51:57Z",
+    "cumulative": 338,
+    "owner": "Sadotib"
+  },
+  {
+    "ts": "2026-04-29T10:52:01Z",
+    "cumulative": 339,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:11Z",
+    "cumulative": 340,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:13Z",
+    "cumulative": 341,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:31Z",
+    "cumulative": 342,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:39Z",
+    "cumulative": 343,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:39Z",
+    "cumulative": 344,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:50Z",
+    "cumulative": 345,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:50Z",
+    "cumulative": 346,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:52:59Z",
+    "cumulative": 347,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:02Z",
+    "cumulative": 348,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T10:53:17Z",
+    "cumulative": 349,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:24Z",
+    "cumulative": 350,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:26Z",
+    "cumulative": 351,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:27Z",
+    "cumulative": 352,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:31Z",
+    "cumulative": 353,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:34Z",
+    "cumulative": 354,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:53:52Z",
+    "cumulative": 355,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:54:04Z",
+    "cumulative": 356,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:54:08Z",
+    "cumulative": 357,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:54:08Z",
+    "cumulative": 358,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:54:19Z",
+    "cumulative": 359,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:54:38Z",
+    "cumulative": 360,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:55:00Z",
+    "cumulative": 361,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:55:27Z",
+    "cumulative": 362,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:55:38Z",
+    "cumulative": 363,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:55:40Z",
+    "cumulative": 364,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:55:59Z",
+    "cumulative": 365,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:56:17Z",
+    "cumulative": 366,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:56:24Z",
+    "cumulative": 367,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T10:56:29Z",
+    "cumulative": 368,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T11:05:03Z",
+    "cumulative": 369,
+    "owner": "felixEvora"
+  },
+  {
+    "ts": "2026-04-29T11:11:37Z",
+    "cumulative": 370,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:18:10Z",
+    "cumulative": 371,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:19:31Z",
+    "cumulative": 372,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:20:44Z",
+    "cumulative": 373,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:21:43Z",
+    "cumulative": 374,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:22:18Z",
+    "cumulative": 375,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:22:30Z",
+    "cumulative": 376,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:22:35Z",
+    "cumulative": 377,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:22:39Z",
+    "cumulative": 378,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:22:47Z",
+    "cumulative": 379,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:04Z",
+    "cumulative": 380,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:12Z",
+    "cumulative": 381,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:18Z",
+    "cumulative": 382,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:24Z",
+    "cumulative": 383,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:30Z",
+    "cumulative": 384,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:39Z",
+    "cumulative": 385,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:23:39Z",
+    "cumulative": 386,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:24:03Z",
+    "cumulative": 387,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:24:08Z",
+    "cumulative": 388,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:24:44Z",
+    "cumulative": 389,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:24:45Z",
+    "cumulative": 390,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:24:59Z",
+    "cumulative": 391,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:06Z",
+    "cumulative": 392,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:20Z",
+    "cumulative": 393,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:22Z",
+    "cumulative": 394,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:24Z",
+    "cumulative": 395,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:27Z",
+    "cumulative": 396,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:48Z",
+    "cumulative": 397,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:50Z",
+    "cumulative": 398,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:52Z",
+    "cumulative": 399,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:25:58Z",
+    "cumulative": 400,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:26:05Z",
+    "cumulative": 401,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:26:16Z",
+    "cumulative": 402,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:26:25Z",
+    "cumulative": 403,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:26:26Z",
+    "cumulative": 404,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:11Z",
+    "cumulative": 405,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:12Z",
+    "cumulative": 406,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:14Z",
+    "cumulative": 407,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:21Z",
+    "cumulative": 408,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:24Z",
+    "cumulative": 409,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:27:34Z",
+    "cumulative": 410,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:35Z",
+    "cumulative": 411,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:40Z",
+    "cumulative": 412,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:27:55Z",
+    "cumulative": 413,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:06Z",
+    "cumulative": 414,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:16Z",
+    "cumulative": 415,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:23Z",
+    "cumulative": 416,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:23Z",
+    "cumulative": 417,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:31Z",
+    "cumulative": 418,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:32Z",
+    "cumulative": 419,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:28:46Z",
+    "cumulative": 420,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:03Z",
+    "cumulative": 421,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:06Z",
+    "cumulative": 422,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:06Z",
+    "cumulative": 423,
+    "owner": "sejal2608"
+  },
+  {
+    "ts": "2026-04-29T11:29:13Z",
+    "cumulative": 424,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:22Z",
+    "cumulative": 425,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:43Z",
+    "cumulative": 426,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:45Z",
+    "cumulative": 427,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:29:51Z",
+    "cumulative": 428,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:06Z",
+    "cumulative": 429,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:11Z",
+    "cumulative": 430,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:16Z",
+    "cumulative": 431,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:25Z",
+    "cumulative": 432,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:30Z",
+    "cumulative": 433,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:42Z",
+    "cumulative": 434,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:44Z",
+    "cumulative": 435,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:30:56Z",
+    "cumulative": 436,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:01Z",
+    "cumulative": 437,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:01Z",
+    "cumulative": 438,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:02Z",
+    "cumulative": 439,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:09Z",
+    "cumulative": 440,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:16Z",
+    "cumulative": 441,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:21Z",
+    "cumulative": 442,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:25Z",
+    "cumulative": 443,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:30Z",
+    "cumulative": 444,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:32Z",
+    "cumulative": 445,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:31:57Z",
+    "cumulative": 446,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:02Z",
+    "cumulative": 447,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:17Z",
+    "cumulative": 448,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:17Z",
+    "cumulative": 449,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:20Z",
+    "cumulative": 450,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T11:32:25Z",
+    "cumulative": 451,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:35Z",
+    "cumulative": 452,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:50Z",
+    "cumulative": 453,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:57Z",
+    "cumulative": 454,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:32:59Z",
+    "cumulative": 455,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:33:03Z",
+    "cumulative": 456,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:33:18Z",
+    "cumulative": 457,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:33:24Z",
+    "cumulative": 458,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:33:35Z",
+    "cumulative": 459,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:33:50Z",
+    "cumulative": 460,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:34:02Z",
+    "cumulative": 461,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:34:19Z",
+    "cumulative": 462,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:34:58Z",
+    "cumulative": 463,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:00Z",
+    "cumulative": 464,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:02Z",
+    "cumulative": 465,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:03Z",
+    "cumulative": 466,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:06Z",
+    "cumulative": 467,
+    "owner": "onlybimal17"
+  },
+  {
+    "ts": "2026-04-29T11:35:12Z",
+    "cumulative": 468,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:14Z",
+    "cumulative": 469,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:40Z",
+    "cumulative": 470,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:40Z",
+    "cumulative": 471,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:51Z",
+    "cumulative": 472,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:35:57Z",
+    "cumulative": 473,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:01Z",
+    "cumulative": 474,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:04Z",
+    "cumulative": 475,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:10Z",
+    "cumulative": 476,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:13Z",
+    "cumulative": 477,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:15Z",
+    "cumulative": 478,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:21Z",
+    "cumulative": 479,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:29Z",
+    "cumulative": 480,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:35Z",
+    "cumulative": 481,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:46Z",
+    "cumulative": 482,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:50Z",
+    "cumulative": 483,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:53Z",
+    "cumulative": 484,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:54Z",
+    "cumulative": 485,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:36:58Z",
+    "cumulative": 486,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:37:11Z",
+    "cumulative": 487,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:37:13Z",
+    "cumulative": 488,
+    "owner": "sejal2608"
+  },
+  {
+    "ts": "2026-04-29T11:37:24Z",
+    "cumulative": 489,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:37:27Z",
+    "cumulative": 490,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:37:29Z",
+    "cumulative": 491,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:00Z",
+    "cumulative": 492,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:04Z",
+    "cumulative": 493,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:15Z",
+    "cumulative": 494,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:16Z",
+    "cumulative": 495,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:19Z",
+    "cumulative": 496,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:30Z",
+    "cumulative": 497,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:31Z",
+    "cumulative": 498,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:38:33Z",
+    "cumulative": 499,
+    "owner": "AasifAtom"
+  },
+  {
+    "ts": "2026-04-29T11:38:48Z",
+    "cumulative": 500,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:14Z",
+    "cumulative": 501,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:15Z",
+    "cumulative": 502,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:16Z",
+    "cumulative": 503,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:18Z",
+    "cumulative": 504,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:22Z",
+    "cumulative": 505,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:27Z",
+    "cumulative": 506,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:29Z",
+    "cumulative": 507,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:42Z",
+    "cumulative": 508,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:48Z",
+    "cumulative": 509,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:49Z",
+    "cumulative": 510,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:49Z",
+    "cumulative": 511,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:57Z",
+    "cumulative": 512,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:39:59Z",
+    "cumulative": 513,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:40:21Z",
+    "cumulative": 514,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:40:32Z",
+    "cumulative": 515,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:40:38Z",
+    "cumulative": 516,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:40:52Z",
+    "cumulative": 517,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:13Z",
+    "cumulative": 518,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:18Z",
+    "cumulative": 519,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:21Z",
+    "cumulative": 520,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:23Z",
+    "cumulative": 521,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:25Z",
+    "cumulative": 522,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:27Z",
+    "cumulative": 523,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:29Z",
+    "cumulative": 524,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:34Z",
+    "cumulative": 525,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:35Z",
+    "cumulative": 526,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:41:39Z",
+    "cumulative": 527,
+    "owner": "Shrenath1903"
+  },
+  {
+    "ts": "2026-04-29T11:49:44Z",
+    "cumulative": 528,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:51:07Z",
+    "cumulative": 529,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T11:52:34Z",
+    "cumulative": 530,
+    "owner": "Nicoldeep"
+  },
+  {
+    "ts": "2026-04-29T11:59:43Z",
+    "cumulative": 531,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T12:06:48Z",
+    "cumulative": 532,
+    "owner": "daya0510"
+  },
+  {
+    "ts": "2026-04-29T12:11:11Z",
+    "cumulative": 533,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T12:11:54Z",
+    "cumulative": 534,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:06Z",
+    "cumulative": 535,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:06Z",
+    "cumulative": 536,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:09Z",
+    "cumulative": 537,
+    "owner": "onlybimal17"
+  },
+  {
+    "ts": "2026-04-29T12:13:14Z",
+    "cumulative": 538,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:14Z",
+    "cumulative": 539,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:18Z",
+    "cumulative": 540,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:19Z",
+    "cumulative": 541,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:22Z",
+    "cumulative": 542,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:22Z",
+    "cumulative": 543,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:28Z",
+    "cumulative": 544,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:30Z",
+    "cumulative": 545,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:49Z",
+    "cumulative": 546,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:13:56Z",
+    "cumulative": 547,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:02Z",
+    "cumulative": 548,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:03Z",
+    "cumulative": 549,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:09Z",
+    "cumulative": 550,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:12Z",
+    "cumulative": 551,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:22Z",
+    "cumulative": 552,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:25Z",
+    "cumulative": 553,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:31Z",
+    "cumulative": 554,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:35Z",
+    "cumulative": 555,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:14:46Z",
+    "cumulative": 556,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:02Z",
+    "cumulative": 557,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:09Z",
+    "cumulative": 558,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:09Z",
+    "cumulative": 559,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:10Z",
+    "cumulative": 560,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:13Z",
+    "cumulative": 561,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T12:15:17Z",
+    "cumulative": 562,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:24Z",
+    "cumulative": 563,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:26Z",
+    "cumulative": 564,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:33Z",
+    "cumulative": 565,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:36Z",
+    "cumulative": 566,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:46Z",
+    "cumulative": 567,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:15:51Z",
+    "cumulative": 568,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:01Z",
+    "cumulative": 569,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:21Z",
+    "cumulative": 570,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:25Z",
+    "cumulative": 571,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:26Z",
+    "cumulative": 572,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:33Z",
+    "cumulative": 573,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:37Z",
+    "cumulative": 574,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:55Z",
+    "cumulative": 575,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:55Z",
+    "cumulative": 576,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:57Z",
+    "cumulative": 577,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:16:59Z",
+    "cumulative": 578,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:08Z",
+    "cumulative": 579,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:22Z",
+    "cumulative": 580,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:26Z",
+    "cumulative": 581,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:27Z",
+    "cumulative": 582,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:28Z",
+    "cumulative": 583,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:35Z",
+    "cumulative": 584,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:44Z",
+    "cumulative": 585,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:17:45Z",
+    "cumulative": 586,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:00Z",
+    "cumulative": 587,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:07Z",
+    "cumulative": 588,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:17Z",
+    "cumulative": 589,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:21Z",
+    "cumulative": 590,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:26Z",
+    "cumulative": 591,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:29Z",
+    "cumulative": 592,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:32Z",
+    "cumulative": 593,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:35Z",
+    "cumulative": 594,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:38Z",
+    "cumulative": 595,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:39Z",
+    "cumulative": 596,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:45Z",
+    "cumulative": 597,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:45Z",
+    "cumulative": 598,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:49Z",
+    "cumulative": 599,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:51Z",
+    "cumulative": 600,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:18:54Z",
+    "cumulative": 601,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:05Z",
+    "cumulative": 602,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:20Z",
+    "cumulative": 603,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:22Z",
+    "cumulative": 604,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:23Z",
+    "cumulative": 605,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:23Z",
+    "cumulative": 606,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:25Z",
+    "cumulative": 607,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:48Z",
+    "cumulative": 608,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:19:57Z",
+    "cumulative": 609,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:02Z",
+    "cumulative": 610,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:07Z",
+    "cumulative": 611,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:07Z",
+    "cumulative": 612,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:09Z",
+    "cumulative": 613,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:24Z",
+    "cumulative": 614,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:30Z",
+    "cumulative": 615,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:32Z",
+    "cumulative": 616,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:34Z",
+    "cumulative": 617,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:45Z",
+    "cumulative": 618,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:20:47Z",
+    "cumulative": 619,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:07Z",
+    "cumulative": 620,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:14Z",
+    "cumulative": 621,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:23Z",
+    "cumulative": 622,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:29Z",
+    "cumulative": 623,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:36Z",
+    "cumulative": 624,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:21:42Z",
+    "cumulative": 625,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:00Z",
+    "cumulative": 626,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:20Z",
+    "cumulative": 627,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:20Z",
+    "cumulative": 628,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:31Z",
+    "cumulative": 629,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:31Z",
+    "cumulative": 630,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:34Z",
+    "cumulative": 631,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:44Z",
+    "cumulative": 632,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:56Z",
+    "cumulative": 633,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:22:58Z",
+    "cumulative": 634,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:06Z",
+    "cumulative": 635,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:06Z",
+    "cumulative": 636,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:13Z",
+    "cumulative": 637,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:22Z",
+    "cumulative": 638,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:26Z",
+    "cumulative": 639,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:33Z",
+    "cumulative": 640,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:47Z",
+    "cumulative": 641,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:57Z",
+    "cumulative": 642,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:23:59Z",
+    "cumulative": 643,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:01Z",
+    "cumulative": 644,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:03Z",
+    "cumulative": 645,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:10Z",
+    "cumulative": 646,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:10Z",
+    "cumulative": 647,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:15Z",
+    "cumulative": 648,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:36Z",
+    "cumulative": 649,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:38Z",
+    "cumulative": 650,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:38Z",
+    "cumulative": 651,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:39Z",
+    "cumulative": 652,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:42Z",
+    "cumulative": 653,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:50Z",
+    "cumulative": 654,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:24:58Z",
+    "cumulative": 655,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:25:08Z",
+    "cumulative": 656,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:25:24Z",
+    "cumulative": 657,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:25:27Z",
+    "cumulative": 658,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:25:32Z",
+    "cumulative": 659,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:25:54Z",
+    "cumulative": 660,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:05Z",
+    "cumulative": 661,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:15Z",
+    "cumulative": 662,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:22Z",
+    "cumulative": 663,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:34Z",
+    "cumulative": 664,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:36Z",
+    "cumulative": 665,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:26:49Z",
+    "cumulative": 666,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:03Z",
+    "cumulative": 667,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:17Z",
+    "cumulative": 668,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:23Z",
+    "cumulative": 669,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:27Z",
+    "cumulative": 670,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:42Z",
+    "cumulative": 671,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:48Z",
+    "cumulative": 672,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:53Z",
+    "cumulative": 673,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:27:57Z",
+    "cumulative": 674,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:01Z",
+    "cumulative": 675,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:09Z",
+    "cumulative": 676,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:19Z",
+    "cumulative": 677,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:22Z",
+    "cumulative": 678,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:23Z",
+    "cumulative": 679,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:28Z",
+    "cumulative": 680,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:34Z",
+    "cumulative": 681,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:35Z",
+    "cumulative": 682,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:37Z",
+    "cumulative": 683,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:42Z",
+    "cumulative": 684,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:28:42Z",
+    "cumulative": 685,
+    "owner": "shrivathsa11"
+  },
+  {
+    "ts": "2026-04-29T12:35:38Z",
+    "cumulative": 686,
+    "owner": "chandruu02"
+  },
+  {
+    "ts": "2026-04-29T12:43:15Z",
+    "cumulative": 687,
+    "owner": "cap-bots"
+  },
+  {
+    "ts": "2026-04-29T12:43:20Z",
+    "cumulative": 688,
+    "owner": "cap-bots"
+  },
+  {
+    "ts": "2026-04-29T12:43:23Z",
+    "cumulative": 689,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:44:10Z",
+    "cumulative": 690,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:44:37Z",
+    "cumulative": 691,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:44:40Z",
+    "cumulative": 692,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:05Z",
+    "cumulative": 693,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:08Z",
+    "cumulative": 694,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:10Z",
+    "cumulative": 695,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:16Z",
+    "cumulative": 696,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:18Z",
+    "cumulative": 697,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:34Z",
+    "cumulative": 698,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:45:48Z",
+    "cumulative": 699,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:46:09Z",
+    "cumulative": 700,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:46:25Z",
+    "cumulative": 701,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:46:26Z",
+    "cumulative": 702,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:46:49Z",
+    "cumulative": 703,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:47:08Z",
+    "cumulative": 704,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:47:21Z",
+    "cumulative": 705,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:47:32Z",
+    "cumulative": 706,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:47:41Z",
+    "cumulative": 707,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:14Z",
+    "cumulative": 708,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:17Z",
+    "cumulative": 709,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:19Z",
+    "cumulative": 710,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:21Z",
+    "cumulative": 711,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:37Z",
+    "cumulative": 712,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:48:56Z",
+    "cumulative": 713,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:15Z",
+    "cumulative": 714,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:16Z",
+    "cumulative": 715,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:17Z",
+    "cumulative": 716,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:21Z",
+    "cumulative": 717,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:22Z",
+    "cumulative": 718,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:22Z",
+    "cumulative": 719,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:39Z",
+    "cumulative": 720,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:49:46Z",
+    "cumulative": 721,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:50:40Z",
+    "cumulative": 722,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:50:43Z",
+    "cumulative": 723,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:50:43Z",
+    "cumulative": 724,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:50:54Z",
+    "cumulative": 725,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:10Z",
+    "cumulative": 726,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:11Z",
+    "cumulative": 727,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:11Z",
+    "cumulative": 728,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:20Z",
+    "cumulative": 729,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:22Z",
+    "cumulative": 730,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:24Z",
+    "cumulative": 731,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:24Z",
+    "cumulative": 732,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:26Z",
+    "cumulative": 733,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:28Z",
+    "cumulative": 734,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:31Z",
+    "cumulative": 735,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:36Z",
+    "cumulative": 736,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:39Z",
+    "cumulative": 737,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:51Z",
+    "cumulative": 738,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:54Z",
+    "cumulative": 739,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:51:58Z",
+    "cumulative": 740,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:03Z",
+    "cumulative": 741,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:05Z",
+    "cumulative": 742,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:06Z",
+    "cumulative": 743,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:08Z",
+    "cumulative": 744,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:12Z",
+    "cumulative": 745,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:18Z",
+    "cumulative": 746,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:20Z",
+    "cumulative": 747,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:27Z",
+    "cumulative": 748,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:31Z",
+    "cumulative": 749,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:33Z",
+    "cumulative": 750,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:39Z",
+    "cumulative": 751,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:42Z",
+    "cumulative": 752,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:52:52Z",
+    "cumulative": 753,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:53:40Z",
+    "cumulative": 754,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:10Z",
+    "cumulative": 755,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:23Z",
+    "cumulative": 756,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:32Z",
+    "cumulative": 757,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:35Z",
+    "cumulative": 758,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:58Z",
+    "cumulative": 759,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:58Z",
+    "cumulative": 760,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:54:58Z",
+    "cumulative": 761,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:55:00Z",
+    "cumulative": 762,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:55:15Z",
+    "cumulative": 763,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:55:32Z",
+    "cumulative": 764,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:55:54Z",
+    "cumulative": 765,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:55:58Z",
+    "cumulative": 766,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:02Z",
+    "cumulative": 767,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:14Z",
+    "cumulative": 768,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:17Z",
+    "cumulative": 769,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:24Z",
+    "cumulative": 770,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:32Z",
+    "cumulative": 771,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:32Z",
+    "cumulative": 772,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:35Z",
+    "cumulative": 773,
+    "owner": "l3v1cs"
+  },
+  {
+    "ts": "2026-04-29T12:56:43Z",
+    "cumulative": 774,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:44Z",
+    "cumulative": 775,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:51Z",
+    "cumulative": 776,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:53Z",
+    "cumulative": 777,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:56:58Z",
+    "cumulative": 778,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:00Z",
+    "cumulative": 779,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:17Z",
+    "cumulative": 780,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:19Z",
+    "cumulative": 781,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:29Z",
+    "cumulative": 782,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:30Z",
+    "cumulative": 783,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:57:50Z",
+    "cumulative": 784,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:04Z",
+    "cumulative": 785,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:10Z",
+    "cumulative": 786,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:16Z",
+    "cumulative": 787,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:18Z",
+    "cumulative": 788,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:35Z",
+    "cumulative": 789,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:58:57Z",
+    "cumulative": 790,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:01Z",
+    "cumulative": 791,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:02Z",
+    "cumulative": 792,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:16Z",
+    "cumulative": 793,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:21Z",
+    "cumulative": 794,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:27Z",
+    "cumulative": 795,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:34Z",
+    "cumulative": 796,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:41Z",
+    "cumulative": 797,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:51Z",
+    "cumulative": 798,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T12:59:59Z",
+    "cumulative": 799,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:02Z",
+    "cumulative": 800,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:06Z",
+    "cumulative": 801,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:19Z",
+    "cumulative": 802,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:22Z",
+    "cumulative": 803,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:25Z",
+    "cumulative": 804,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:28Z",
+    "cumulative": 805,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:32Z",
+    "cumulative": 806,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:00:32Z",
+    "cumulative": 807,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:01:15Z",
+    "cumulative": 808,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:01:25Z",
+    "cumulative": 809,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:01:31Z",
+    "cumulative": 810,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:01:45Z",
+    "cumulative": 811,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:05Z",
+    "cumulative": 812,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:17Z",
+    "cumulative": 813,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:27Z",
+    "cumulative": 814,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:27Z",
+    "cumulative": 815,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:36Z",
+    "cumulative": 816,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:41Z",
+    "cumulative": 817,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:49Z",
+    "cumulative": 818,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:50Z",
+    "cumulative": 819,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:51Z",
+    "cumulative": 820,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:52Z",
+    "cumulative": 821,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:02:57Z",
+    "cumulative": 822,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:03Z",
+    "cumulative": 823,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:06Z",
+    "cumulative": 824,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:08Z",
+    "cumulative": 825,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:13Z",
+    "cumulative": 826,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:13Z",
+    "cumulative": 827,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:17Z",
+    "cumulative": 828,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:19Z",
+    "cumulative": 829,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:21Z",
+    "cumulative": 830,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:24Z",
+    "cumulative": 831,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:30Z",
+    "cumulative": 832,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:38Z",
+    "cumulative": 833,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:38Z",
+    "cumulative": 834,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:03:44Z",
+    "cumulative": 835,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:04:22Z",
+    "cumulative": 836,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:05:03Z",
+    "cumulative": 837,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:05:26Z",
+    "cumulative": 838,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:05:29Z",
+    "cumulative": 839,
+    "owner": "nikra89"
+  },
+  {
+    "ts": "2026-04-29T13:11:06Z",
+    "cumulative": 840,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:01Z",
+    "cumulative": 841,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:16Z",
+    "cumulative": 842,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:31Z",
+    "cumulative": 843,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:33Z",
+    "cumulative": 844,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:52Z",
+    "cumulative": 845,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:55Z",
+    "cumulative": 846,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:12:56Z",
+    "cumulative": 847,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:00Z",
+    "cumulative": 848,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:02Z",
+    "cumulative": 849,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:10Z",
+    "cumulative": 850,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:14Z",
+    "cumulative": 851,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:15Z",
+    "cumulative": 852,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:19Z",
+    "cumulative": 853,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:28Z",
+    "cumulative": 854,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:13:31Z",
+    "cumulative": 855,
+    "owner": "PFrisonCTAC"
+  },
+  {
+    "ts": "2026-04-29T13:14:02Z",
+    "cumulative": 856,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:14:04Z",
+    "cumulative": 857,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:14:53Z",
+    "cumulative": 858,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:14:55Z",
+    "cumulative": 859,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:14:59Z",
+    "cumulative": 860,
+    "owner": "PFrisonCTAC"
+  },
+  {
+    "ts": "2026-04-29T13:15:12Z",
+    "cumulative": 861,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:16:17Z",
+    "cumulative": 862,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:16:55Z",
+    "cumulative": 863,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:16:58Z",
+    "cumulative": 864,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:17:20Z",
+    "cumulative": 865,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:17:42Z",
+    "cumulative": 866,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:17:45Z",
+    "cumulative": 867,
+    "owner": "BGEEL"
+  },
+  {
+    "ts": "2026-04-29T13:18:15Z",
+    "cumulative": 868,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:20:23Z",
+    "cumulative": 869,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:20:23Z",
+    "cumulative": 870,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:20:56Z",
+    "cumulative": 871,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:21:10Z",
+    "cumulative": 872,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:21:11Z",
+    "cumulative": 873,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:21:20Z",
+    "cumulative": 874,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:21:35Z",
+    "cumulative": 875,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:22:47Z",
+    "cumulative": 876,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:25:09Z",
+    "cumulative": 877,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:25:36Z",
+    "cumulative": 878,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:26:44Z",
+    "cumulative": 879,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:27:00Z",
+    "cumulative": 880,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:01Z",
+    "cumulative": 881,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:02Z",
+    "cumulative": 882,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:18Z",
+    "cumulative": 883,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:19Z",
+    "cumulative": 884,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:20Z",
+    "cumulative": 885,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:28:50Z",
+    "cumulative": 886,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:29:08Z",
+    "cumulative": 887,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:30:08Z",
+    "cumulative": 888,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:30:19Z",
+    "cumulative": 889,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:30:34Z",
+    "cumulative": 890,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:30:35Z",
+    "cumulative": 891,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:30:38Z",
+    "cumulative": 892,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:31:05Z",
+    "cumulative": 893,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:32:07Z",
+    "cumulative": 894,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:34:26Z",
+    "cumulative": 895,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:34:32Z",
+    "cumulative": 896,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:34:36Z",
+    "cumulative": 897,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:36:24Z",
+    "cumulative": 898,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:37:09Z",
+    "cumulative": 899,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:37:40Z",
+    "cumulative": 900,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:38:49Z",
+    "cumulative": 901,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:38:52Z",
+    "cumulative": 902,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:40:40Z",
+    "cumulative": 903,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:40:55Z",
+    "cumulative": 904,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:42:18Z",
+    "cumulative": 905,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:42:23Z",
+    "cumulative": 906,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:43:03Z",
+    "cumulative": 907,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:43:20Z",
+    "cumulative": 908,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:43:34Z",
+    "cumulative": 909,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:44:08Z",
+    "cumulative": 910,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:44:16Z",
+    "cumulative": 911,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:44:50Z",
+    "cumulative": 912,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:44:51Z",
+    "cumulative": 913,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:45:08Z",
+    "cumulative": 914,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:45:27Z",
+    "cumulative": 915,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:45:29Z",
+    "cumulative": 916,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:45:57Z",
+    "cumulative": 917,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:45:57Z",
+    "cumulative": 918,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:46:09Z",
+    "cumulative": 919,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:46:34Z",
+    "cumulative": 920,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:46:53Z",
+    "cumulative": 921,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:50:27Z",
+    "cumulative": 922,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:51:02Z",
+    "cumulative": 923,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:51:27Z",
+    "cumulative": 924,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:51:52Z",
+    "cumulative": 925,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:51:58Z",
+    "cumulative": 926,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:52:03Z",
+    "cumulative": 927,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:52:28Z",
+    "cumulative": 928,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:52:48Z",
+    "cumulative": 929,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:52:52Z",
+    "cumulative": 930,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:52:56Z",
+    "cumulative": 931,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:53:14Z",
+    "cumulative": 932,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:53:35Z",
+    "cumulative": 933,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:53:39Z",
+    "cumulative": 934,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:33Z",
+    "cumulative": 935,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:36Z",
+    "cumulative": 936,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:39Z",
+    "cumulative": 937,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:39Z",
+    "cumulative": 938,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:40Z",
+    "cumulative": 939,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:54:43Z",
+    "cumulative": 940,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:56:49Z",
+    "cumulative": 941,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:57:17Z",
+    "cumulative": 942,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:58:36Z",
+    "cumulative": 943,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:58:52Z",
+    "cumulative": 944,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:59:10Z",
+    "cumulative": 945,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T13:59:58Z",
+    "cumulative": 946,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:01:35Z",
+    "cumulative": 947,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:03:04Z",
+    "cumulative": 948,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:03:13Z",
+    "cumulative": 949,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:03:51Z",
+    "cumulative": 950,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:04:19Z",
+    "cumulative": 951,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:06:01Z",
+    "cumulative": 952,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:06:14Z",
+    "cumulative": 953,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:07:16Z",
+    "cumulative": 954,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:10:06Z",
+    "cumulative": 955,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:11:44Z",
+    "cumulative": 956,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:11:56Z",
+    "cumulative": 957,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:13:14Z",
+    "cumulative": 958,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:14:51Z",
+    "cumulative": 959,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:15:03Z",
+    "cumulative": 960,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:15:16Z",
+    "cumulative": 961,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:15:20Z",
+    "cumulative": 962,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:16:20Z",
+    "cumulative": 963,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:17:08Z",
+    "cumulative": 964,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:17:12Z",
+    "cumulative": 965,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:17:19Z",
+    "cumulative": 966,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:19:38Z",
+    "cumulative": 967,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:23:35Z",
+    "cumulative": 968,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:24:16Z",
+    "cumulative": 969,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:24:23Z",
+    "cumulative": 970,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:24:38Z",
+    "cumulative": 971,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:25:08Z",
+    "cumulative": 972,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:25:17Z",
+    "cumulative": 973,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:25:18Z",
+    "cumulative": 974,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:25:22Z",
+    "cumulative": 975,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:09Z",
+    "cumulative": 976,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:18Z",
+    "cumulative": 977,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:21Z",
+    "cumulative": 978,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:51Z",
+    "cumulative": 979,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:54Z",
+    "cumulative": 980,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:27:56Z",
+    "cumulative": 981,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:01Z",
+    "cumulative": 982,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:08Z",
+    "cumulative": 983,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:11Z",
+    "cumulative": 984,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:14Z",
+    "cumulative": 985,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:15Z",
+    "cumulative": 986,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:19Z",
+    "cumulative": 987,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:31Z",
+    "cumulative": 988,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:33Z",
+    "cumulative": 989,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:28:35Z",
+    "cumulative": 990,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:32:09Z",
+    "cumulative": 991,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:34:39Z",
+    "cumulative": 992,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:35:19Z",
+    "cumulative": 993,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:35:41Z",
+    "cumulative": 994,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:38:24Z",
+    "cumulative": 995,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:38:26Z",
+    "cumulative": 996,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:38:48Z",
+    "cumulative": 997,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:38:56Z",
+    "cumulative": 998,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:39:18Z",
+    "cumulative": 999,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:40:29Z",
+    "cumulative": 1000,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:41:04Z",
+    "cumulative": 1001,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:41:10Z",
+    "cumulative": 1002,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:41:19Z",
+    "cumulative": 1003,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:41:27Z",
+    "cumulative": 1004,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:41:49Z",
+    "cumulative": 1005,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:43:13Z",
+    "cumulative": 1006,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:45:09Z",
+    "cumulative": 1007,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:45:19Z",
+    "cumulative": 1008,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:46:45Z",
+    "cumulative": 1009,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:46:54Z",
+    "cumulative": 1010,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:46:57Z",
+    "cumulative": 1011,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:47:15Z",
+    "cumulative": 1012,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:47:29Z",
+    "cumulative": 1013,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:47:32Z",
+    "cumulative": 1014,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:47:38Z",
+    "cumulative": 1015,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:48:04Z",
+    "cumulative": 1016,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:48:08Z",
+    "cumulative": 1017,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:48:59Z",
+    "cumulative": 1018,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:03Z",
+    "cumulative": 1019,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:21Z",
+    "cumulative": 1020,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:24Z",
+    "cumulative": 1021,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:43Z",
+    "cumulative": 1022,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:55Z",
+    "cumulative": 1023,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:49:56Z",
+    "cumulative": 1024,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:05Z",
+    "cumulative": 1025,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:21Z",
+    "cumulative": 1026,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:30Z",
+    "cumulative": 1027,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:37Z",
+    "cumulative": 1028,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:45Z",
+    "cumulative": 1029,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:50:50Z",
+    "cumulative": 1030,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:51:41Z",
+    "cumulative": 1031,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:51:49Z",
+    "cumulative": 1032,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:53:38Z",
+    "cumulative": 1033,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:53:58Z",
+    "cumulative": 1034,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:54:00Z",
+    "cumulative": 1035,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:55:32Z",
+    "cumulative": 1036,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:55:38Z",
+    "cumulative": 1037,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:56:41Z",
+    "cumulative": 1038,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:57:49Z",
+    "cumulative": 1039,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T14:57:53Z",
+    "cumulative": 1040,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:03:15Z",
+    "cumulative": 1041,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:04:16Z",
+    "cumulative": 1042,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:05:05Z",
+    "cumulative": 1043,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:06:15Z",
+    "cumulative": 1044,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:06:19Z",
+    "cumulative": 1045,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:08:36Z",
+    "cumulative": 1046,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:09:57Z",
+    "cumulative": 1047,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:12:42Z",
+    "cumulative": 1048,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:12:46Z",
+    "cumulative": 1049,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:14:51Z",
+    "cumulative": 1050,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:14:55Z",
+    "cumulative": 1051,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:15:26Z",
+    "cumulative": 1052,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:16:17Z",
+    "cumulative": 1053,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:16:52Z",
+    "cumulative": 1054,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:17:34Z",
+    "cumulative": 1055,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:19:56Z",
+    "cumulative": 1056,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:20:48Z",
+    "cumulative": 1057,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:20:58Z",
+    "cumulative": 1058,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:20:59Z",
+    "cumulative": 1059,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:21:02Z",
+    "cumulative": 1060,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:21:36Z",
+    "cumulative": 1061,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:22:17Z",
+    "cumulative": 1062,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:22:20Z",
+    "cumulative": 1063,
+    "owner": "PFrisonCTAC"
+  },
+  {
+    "ts": "2026-04-29T15:22:37Z",
+    "cumulative": 1064,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:23:26Z",
+    "cumulative": 1065,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:24:28Z",
+    "cumulative": 1066,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:24:31Z",
+    "cumulative": 1067,
+    "owner": "PFrisonCTAC"
+  },
+  {
+    "ts": "2026-04-29T15:24:51Z",
+    "cumulative": 1068,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:26:18Z",
+    "cumulative": 1069,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:28:19Z",
+    "cumulative": 1070,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:31:56Z",
+    "cumulative": 1071,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:33:03Z",
+    "cumulative": 1072,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:37:14Z",
+    "cumulative": 1073,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:37:21Z",
+    "cumulative": 1074,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:40:19Z",
+    "cumulative": 1075,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:40:22Z",
+    "cumulative": 1076,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T15:41:22Z",
+    "cumulative": 1077,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:42:01Z",
+    "cumulative": 1078,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:45:05Z",
+    "cumulative": 1079,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:05Z",
+    "cumulative": 1080,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:13Z",
+    "cumulative": 1081,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:16Z",
+    "cumulative": 1082,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:24Z",
+    "cumulative": 1083,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:28Z",
+    "cumulative": 1084,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:33Z",
+    "cumulative": 1085,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:46:57Z",
+    "cumulative": 1086,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:47:00Z",
+    "cumulative": 1087,
+    "owner": "LeeannBaranco"
+  },
+  {
+    "ts": "2026-04-29T15:47:04Z",
+    "cumulative": 1088,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:48:02Z",
+    "cumulative": 1089,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:51:52Z",
+    "cumulative": 1090,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:53:08Z",
+    "cumulative": 1091,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:53:11Z",
+    "cumulative": 1092,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T15:54:36Z",
+    "cumulative": 1093,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:54:40Z",
+    "cumulative": 1094,
+    "owner": "AfonsoFigueiredo-AMT"
+  },
+  {
+    "ts": "2026-04-29T15:55:14Z",
+    "cumulative": 1095,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:56:05Z",
+    "cumulative": 1096,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:56:21Z",
+    "cumulative": 1097,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T15:59:42Z",
+    "cumulative": 1098,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:02:11Z",
+    "cumulative": 1099,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:03:37Z",
+    "cumulative": 1100,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:06:10Z",
+    "cumulative": 1101,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:08:38Z",
+    "cumulative": 1102,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:13:12Z",
+    "cumulative": 1103,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:13:44Z",
+    "cumulative": 1104,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:15:17Z",
+    "cumulative": 1105,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:15:38Z",
+    "cumulative": 1106,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:28:17Z",
+    "cumulative": 1107,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:29:42Z",
+    "cumulative": 1108,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:33:49Z",
+    "cumulative": 1109,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:37:50Z",
+    "cumulative": 1110,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:45:42Z",
+    "cumulative": 1111,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:50:39Z",
+    "cumulative": 1112,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T16:52:44Z",
+    "cumulative": 1113,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T17:02:24Z",
+    "cumulative": 1114,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T17:17:33Z",
+    "cumulative": 1115,
+    "owner": "virinchy48"
+  },
+  {
+    "ts": "2026-04-29T17:17:35Z",
+    "cumulative": 1116,
+    "owner": "onlybimal17"
+  },
+  {
+    "ts": "2026-04-29T17:18:30Z",
+    "cumulative": 1117,
+    "owner": "virinchy48"
+  }
+]

@@ -1,0 +1,17 @@
+title: "Mini Shai-Hulud Dragnet"
+description: "Forensic dataset and dashboard for the 2026-04-29 TeamPCP npm supply-chain worm"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+include:
+  - data
+  - docs
+exclude:
+  - scripts
+  - "*.sh"
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      sitemap: true

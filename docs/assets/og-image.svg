@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Mini Shai-Hulud Dragnet — TeamPCP npm Supply-Chain Worm 2026-04-29">
+  <defs>
+    <radialGradient id="r1" cx="20%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ff5c5c" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ff5c5c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r2" cx="90%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#5cdfff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#5cdfff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2735" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0a0e14"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#r1)"/>
+  <rect width="1200" height="630" fill="url(#r2)"/>
+
+  <!-- Top eyebrow -->
+  <text x="64" y="84" font-family="ui-monospace, monospace" font-size="14" letter-spacing="3" fill="#5cdfff" text-transform="uppercase">FORENSIC DRAGNET · 2026-04-29 · ACTIVE CAMPAIGN</text>
+
+  <!-- Title -->
+  <text x="64" y="200" font-family="-apple-system, system-ui, sans-serif" font-size="92" font-weight="700" fill="#d8e0eb" letter-spacing="-2">Mini Shai-Hulud</text>
+  <text x="64" y="290" font-family="Georgia, serif" font-style="italic" font-size="78" font-weight="400" fill="#ff5c5c" letter-spacing="-1">has appeared.</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="350" font-family="-apple-system, system-ui, sans-serif" font-size="24" fill="#7a869a">A TeamPCP npm supply-chain worm forensic dragnet</text>
+
+  <!-- Stat row -->
+  <g font-family="ui-monospace, monospace" font-variant-numeric="tabular-nums">
+    <text x="64" y="500" font-size="72" font-weight="200" fill="#ff5c5c">1,117</text>
+    <text x="64" y="535" font-size="13" letter-spacing="2" fill="#7a869a">DROPBOX REPOS</text>
+
+    <text x="324" y="500" font-size="72" font-weight="200" fill="#5cdfff">22</text>
+    <text x="324" y="535" font-size="13" letter-spacing="2" fill="#7a869a">VICTIM ACCOUNTS</text>
+
+    <text x="464" y="500" font-size="72" font-weight="200" fill="#ffb347">47</text>
+    <text x="464" y="535" font-size="13" letter-spacing="2" fill="#7a869a">IOCS CATALOGUED</text>
+
+    <text x="664" y="500" font-size="72" font-weight="200" fill="#5cffac">5</text>
+    <text x="664" y="535" font-size="13" letter-spacing="2" fill="#7a869a">TROJANED PACKAGES</text>
+
+    <text x="844" y="500" font-size="72" font-weight="200" fill="#b388ff">7h</text>
+    <text x="844" y="535" font-size="13" letter-spacing="2" fill="#7a869a">PROPAGATION WINDOW</text>
+  </g>
+
+  <!-- C2 callout -->
+  <text x="64" y="600" font-family="ui-monospace, monospace" font-size="14" fill="#ff5c5c">audit.checkmarx.cx → 94.154.172.43 · AS209101 IP Vendetta · Seychelles</text>
+
+  <!-- Right-side accent block -->
+  <g transform="translate(960, 100)">
+    <rect x="0" y="0" width="180" height="220" fill="none" stroke="#ff5c5c" stroke-width="1.5" rx="6"/>
+    <text x="14" y="32" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#ff5c5c">ACTOR</text>
+    <text x="14" y="62" font-family="-apple-system, system-ui, sans-serif" font-size="32" font-weight="700" fill="#d8e0eb">TeamPCP</text>
+    <text x="14" y="100" font-family="ui-monospace, monospace" font-size="11" fill="#7a869a">Cadence: ~1/week</text>
+    <text x="14" y="120" font-family="ui-monospace, monospace" font-size="11" fill="#7a869a">Prior ops:</text>
+    <text x="14" y="140" font-family="ui-monospace, monospace" font-size="11" fill="#d8e0eb">CanisterWorm</text>
+    <text x="14" y="158" font-family="ui-monospace, monospace" font-size="11" fill="#d8e0eb">Checkmarx GHA</text>
+    <text x="14" y="176" font-family="ui-monospace, monospace" font-size="11" fill="#d8e0eb">Checkmarx KICS</text>
+    <text x="14" y="194" font-family="ui-monospace, monospace" font-size="11" fill="#5cdfff">Mini Shai-Hulud ←</text>
+  </g>
+
+  <!-- Pulse dot -->
+  <circle cx="40" cy="80" r="6" fill="#ff5c5c">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

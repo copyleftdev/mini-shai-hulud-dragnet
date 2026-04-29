@@ -1,0 +1,10 @@
+{"type":"tracker","org":"StepSecurity","url":"https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared","focus":"npm supply-chain attacks","format":"blog"}
+{"type":"tracker","org":"Aikido","url":"https://www.aikido.dev/blog/shai-hulud-npm-bitwarden-cli-compromise","focus":"bitwarden cli compromise","format":"blog"}
+{"type":"tracker","org":"Datadog Security Labs","url":"https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/","focus":"shai-hulud lineage","format":"blog"}
+{"type":"tracker","org":"OX Security","url":"https://www.ox.security/blog/shai-hulud-bitwarden-cli-supply-chain-attack/","focus":"shai-hulud third-coming","format":"blog"}
+{"type":"tracker","org":"JFrog","url":"https://github.com/jfrog/research","focus":"package supply chain","format":"git_repo","github":"jfrog/research"}
+{"type":"tracker","org":"kraven-security","url":"https://github.com/kraven-security/hunting-packages","focus":"npm IOC bundles","format":"git_repo","github":"kraven-security/hunting-packages"}
+{"type":"tracker","org":"harekrishnarai","url":"https://github.com/harekrishnarai/software-supply-chain-monitor","focus":"campaign IOC tracker","format":"git_repo","github":"harekrishnarai/software-supply-chain-monitor"}
+{"type":"tracker","org":"mthcht","url":"https://github.com/mthcht/ThreatIntel-Reports","focus":"threat intel mirror","format":"git_repo","github":"mthcht/ThreatIntel-Reports"}
+{"type":"tracker","org":"sam-caldwell","url":"https://github.com/sam-caldwell/samcaldwell-info","focus":"threatfox cache","format":"git_repo","github":"sam-caldwell/samcaldwell-info"}
+{"type":"tracker","org":"CISA","url":"https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem","focus":"shai-hulud lineage CISA alert","format":"alert"}

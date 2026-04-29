@@ -1,0 +1,6 @@
+{"type":"archetype","code":"A:CI-BURST","name":"CI burst","threshold":"repos_per_min > 5","interpretation":"automated build pipeline with stolen PAT — npm install runs unattended at high frequency","example_count":4}
+{"type":"archetype","code":"B:DEV-WKSTN","name":"Sustained dev workstation","threshold":"repos_per_min < 2 AND span > 2hr","interpretation":"developer's machine running multiple npm-install events across different projects through the day","example_count":1}
+{"type":"archetype","code":"C:SINGLE-CI","name":"Single-shot CI","threshold":"repo_count <= 5 AND span < 10min","interpretation":"one-off CI build event in private infra; the worm only got one shot","example_count":1}
+{"type":"archetype","code":"D:LONG-TAIL","name":"Long-tail individual","threshold":"repos_per_min < 0.1 AND span > 2hr","interpretation":"individual developer touching the trojaned package 2-19 times over hours; manual workflow","example_count":4}
+{"type":"archetype","code":"E:MIXED","name":"Mixed","threshold":"2 < repos_per_min <= 5 AND span > 1hr","interpretation":"sustained dev box also running heavy CI loops locally — between dev and CI","example_count":2}
+{"type":"archetype","code":"SINGLE","name":"Single drop","threshold":"repo_count == 1","interpretation":"one npm-install event, one dropbox; minimal exposure","example_count":10}

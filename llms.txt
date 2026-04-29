@@ -1,0 +1,60 @@
+# Mini Shai-Hulud Dragnet — TeamPCP npm Supply-Chain Worm (2026-04-29)
+
+> Forensic dragnet of the active 2026-04-29 npm supply-chain worm "A Mini Shai-Hulud has Appeared". 1,117 victim dropbox repositories catalogued across 22 compromised accounts. Threat actor: TeamPCP. Trojaned packages: @cap-js/sqlite 2.2.2, @cap-js/postgres 2.2.2, @cap-js/db-service 2.10.1, mbt 1.2.48, @bitwarden/cli 2026.4.0. C2: audit.checkmarx.cx → 94.154.172.43 (AS209101 IP Vendetta Inc., Seychelles).
+
+This is an LLM-friendly index of the dataset. For richer reading, see the dossier and the dashboard. All data is published JSONL under `data/` (CC-BY-4.0).
+
+## Primary entry points
+
+- [Dashboard](index.html): interactive visualization of the propagation curve, victim archetypes, kill chain, campaign chronology, and IOC inventory.
+- [DOSSIER.md](../DOSSIER.md): the full analytical narrative — IOCs, IR action items, SAP staff contact list.
+- [README.md](../README.md): repo overview, citation, license.
+- [methodology.md](../methodology.md): how the dragnet was performed — toolchain, queries, statistical methods.
+
+## Data files (JSONL, one record per line)
+
+- [data/iocs.jsonl](../data/iocs.jsonl): 47 indicators of compromise across 14 kinds (packages, domains, IPs, hashes, regexes, file paths, commit markers, runtimes).
+- [data/victims.jsonl](../data/victims.jsonl): 22 compromised account profiles. Disclosure-safe — corporate / infrastructure compromises named, individual personal accounts redacted.
+- [data/dropboxes.jsonl](../data/dropboxes.jsonl): 1,117 victim dropbox repositories with timestamps.
+- [data/timeline.jsonl](../data/timeline.jsonl): chronological events from 2026-04-22 actor X/Twitter boast through dragnet close.
+- [data/actor.jsonl](../data/actor.jsonl): TeamPCP actor profile and campaign-history records.
+- [data/affiliations.jsonl](../data/affiliations.jsonl): disclosed corporate affiliations (SAP @cap-js, Grupo SBF, CTAC België NV, Maventic, ATOM, Oslo Met).
+- [data/archetypes.jsonl](../data/archetypes.jsonl): victim machine-archetype taxonomy (CI-burst, dev-workstation, single-shot, long-tail, mixed).
+- [data/researcher_trackers.jsonl](../data/researcher_trackers.jsonl): 10 third-party threat-intel sources tracking this campaign.
+- [data/aggregations/](../data/aggregations/): pre-aggregated chart data (per-hour, per-archetype, scatter, cumulative, per-minute, ioc_kinds).
+
+## Key facts (verbatim, citable)
+
+- **Date observed:** 2026-04-29, propagation window 10:00:13Z – 17:18:30Z UTC.
+- **Marker for dropbox repositories:** the GitHub repository description string `"A Mini Shai-Hulud has Appeared"`.
+- **Marker for persistence-injection commits:** the substring `beautifulcastle ` followed by a base64-encoded C2 URL and a victim token. Also `LongLiveTheResistanceAgainstMachines` (TeamPCP signature).
+- **Repo-naming regex:** `(sardaukar|mentat|fremen|atreides|harkonnen|gesserit|prescient|fedaykin|tleilaxu|siridar|kanly|sayyadina|ghola|powindah|prana|kralizec)-(sandworm|ornithopter|heighliner|stillsuit|lasgun|sietch|melange|thumper|navigator|fedaykin|futar|slig|phibian|laza|cogitor|ghola)-\d{1,3}` (Dune vocabulary).
+- **C2 endpoint:** `https://audit.checkmarx.cx/v1/telemetry`. Apex `checkmarx.cx` registered 2026-04-23. Resolver IP `94.154.172.43` AS209101 IP Vendetta Inc. Seychelles.
+- **Loader hash (setup.mjs SHA-256):** `4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34`.
+- **PBKDF2 master key:** `5012caa5847ae9261dfa16f91417042f367d6bed149c3b8af7a50b203a093007`. Cipher salt: `ctf-scramble-v2`.
+- **Patient-zero observable propagation:** GitHub user `gruposbftechrecruiter` (Grupo SBF, Brazil) at 10:00:13Z.
+- **Confirmed compromised npm publisher accounts:** `CloudMTABot` (cloudmtabot@gmail.com, SAP CloudMTA bot) and `cap-bots` (SAP @cap-js bot).
+- **Threat actor:** TeamPCP / "PCP inc." Public X/Twitter boast on 2026-04-22: *"Thank you OSS distribution for another very successful day at PCP inc."*
+- **Same actor's prior operations:** CanisterWorm (March 2026), Checkmarx GitHub Actions compromise (March 2026), Checkmarx KICS Docker + VS Code extensions (April 22, 2026 — same C2 infrastructure).
+
+## Defensive recommendations
+
+1. Rotate every credential reachable from any machine that ran `npm install` for `mbt`, `@cap-js/sqlite`, `@cap-js/postgres`, `@cap-js/db-service`, or `@bitwarden/cli` since 2026-04-29 10:00 UTC.
+2. Block egress to `94.154.172.43` and `*.checkmarx.cx` at the network boundary. Monitor DNS for resolution attempts (subdomain only resolves during exfil window).
+3. Search filesystems for `.vscode/tasks.json` containing `runOn: folderOpen`, `.claude/settings.json` SessionStart hooks, `.claude/execution.js`, `.claude/setup.mjs`, `.vscode/setup.mjs`, `~/.checkmarx/mcp/mcpAddon.js`.
+4. Audit recent commits authored by `claude@users.noreply.github.com` with message `"chore: update dependencies"`. Audit any commit message containing `beautifulcastle` or `LongLiveTheResistanceAgainstMachines`.
+
+## Citation
+
+chai_check threat-intel dragnet (2026). *Mini Shai-Hulud Dragnet*. Published 2026-04-29. Data CC-BY-4.0. https://github.com/chai-check/mini-shai-hulud-dragnet
+
+## Sources cited
+
+- StepSecurity: https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared
+- Aikido: https://www.aikido.dev/blog/shai-hulud-npm-bitwarden-cli-compromise
+- Datadog Security Labs: https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/
+- OX Security: https://www.ox.security/blog/shai-hulud-bitwarden-cli-supply-chain-attack/
+- harekrishnarai/software-supply-chain-monitor (TeamPCP attribution + Checkmarx KICS IOCs)
+- kraven-security/hunting-packages (network IOCs)
+- jfrog/research, mthcht/ThreatIntel-Reports, sam-caldwell/samcaldwell-info
+- CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem

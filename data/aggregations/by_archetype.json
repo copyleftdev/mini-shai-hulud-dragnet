@@ -1,0 +1,50 @@
+[
+  {
+    "archetype": "A:CI-BURST",
+    "victim_count": 4,
+    "total_dropboxes": 505,
+    "total_kb": 4221,
+    "median_burst": 8.92,
+    "median_span_seconds": 1255
+  },
+  {
+    "archetype": "B:DEV-WKSTN",
+    "victim_count": 1,
+    "total_dropboxes": 269,
+    "total_kb": 2560,
+    "median_burst": 0.88,
+    "median_span_seconds": 18197
+  },
+  {
+    "archetype": "C:SINGLE-CI",
+    "victim_count": 1,
+    "total_dropboxes": 2,
+    "total_kb": 0,
+    "median_burst": 0.24,
+    "median_span_seconds": 487
+  },
+  {
+    "archetype": "D:LONG-TAIL",
+    "victim_count": 4,
+    "total_dropboxes": 28,
+    "total_kb": 49,
+    "median_burst": 0.03,
+    "median_span_seconds": 20549
+  },
+  {
+    "archetype": "E:MIXED",
+    "victim_count": 2,
+    "total_dropboxes": 311,
+    "total_kb": 2444,
+    "median_burst": 2.09,
+    "median_span_seconds": 8820
+  },
+  {
+    "archetype": "SINGLE",
+    "victim_count": 10,
+    "total_dropboxes": 10,
+    "total_kb": 40,
+    "median_burst": 0,
+    "median_span_seconds": 0
+  }
+]
