@@ -38,4 +38,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://chai-check.github.io/mini-shai-hulud-dragnet/sitemap.xml
+Sitemap: https://copyleftdev.github.io/mini-shai-hulud-dragnet/sitemap.xml

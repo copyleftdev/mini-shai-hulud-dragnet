@@ -5,8 +5,8 @@ authors:
   - name: "chai_check threat-intel dragnet"
 type: dataset
 date-released: 2026-04-29
-url: "https://github.com/chai-check/mini-shai-hulud-dragnet"
-repository-code: "https://github.com/chai-check/mini-shai-hulud-dragnet"
+url: "https://github.com/copyleftdev/mini-shai-hulud-dragnet"
+repository-code: "https://github.com/copyleftdev/mini-shai-hulud-dragnet"
 license: CC-BY-4.0
 keywords:
   - npm supply chain attack
@@ -26,4 +26,4 @@ abstract: >-
   infrastructure attribution to AS209101 IP Vendetta Inc., Seychelles.
 identifiers:
   - type: url
-    value: "https://github.com/chai-check/mini-shai-hulud-dragnet"
+    value: "https://github.com/copyleftdev/mini-shai-hulud-dragnet"

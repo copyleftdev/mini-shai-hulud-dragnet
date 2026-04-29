@@ -192,7 +192,7 @@ The op-recon hunter joint test is calibrated for star-farm operators (synthetic 
 
 ## Citation
 
-chai_check threat-intel dragnet (2026). Mini Shai-Hulud Dragnet. Published 2026-04-29. Data CC-BY-4.0. https://github.com/chai-check/mini-shai-hulud-dragnet
+chai_check threat-intel dragnet (2026). Mini Shai-Hulud Dragnet. Published 2026-04-29. Data CC-BY-4.0. https://github.com/copyleftdev/mini-shai-hulud-dragnet
 
 ## License
 

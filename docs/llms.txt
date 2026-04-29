@@ -46,7 +46,7 @@ This is an LLM-friendly index of the dataset. For richer reading, see the dossie
 
 ## Citation
 
-chai_check threat-intel dragnet (2026). *Mini Shai-Hulud Dragnet*. Published 2026-04-29. Data CC-BY-4.0. https://github.com/chai-check/mini-shai-hulud-dragnet
+chai_check threat-intel dragnet (2026). *Mini Shai-Hulud Dragnet*. Published 2026-04-29. Data CC-BY-4.0. https://github.com/copyleftdev/mini-shai-hulud-dragnet
 
 ## Sources cited
 

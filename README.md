@@ -97,18 +97,18 @@ Kinds: `package`, `domain`, `ipv4`, `url`, `sha256`, `crypto_key`, `crypto_salt`
 
 ```bash
 # Pull all IOCs
-curl -sL https://raw.githubusercontent.com/chai-check/mini-shai-hulud-dragnet/main/data/iocs.jsonl
+curl -sL https://raw.githubusercontent.com/copyleftdev/mini-shai-hulud-dragnet/main/data/iocs.jsonl
 
 # Filter to network IOCs only (domains, IPs, URLs)
-curl -sL https://raw.githubusercontent.com/chai-check/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
+curl -sL https://raw.githubusercontent.com/copyleftdev/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
   | jq -c 'select(.kind | IN("domain","ipv4","url"))'
 
 # Block-list for firewall rule generation
-curl -sL https://raw.githubusercontent.com/chai-check/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
+curl -sL https://raw.githubusercontent.com/copyleftdev/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
   | jq -r 'select(.kind == "domain" or .kind == "ipv4") | .value'
 
 # Trojaned package list for npm audit / lockfile scanners
-curl -sL https://raw.githubusercontent.com/chai-check/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
+curl -sL https://raw.githubusercontent.com/copyleftdev/mini-shai-hulud-dragnet/main/data/iocs.jsonl \
   | jq -r 'select(.kind == "package" and .status == "trojaned") | "\(.name)@\(.version)"'
 ```
 
@@ -153,7 +153,7 @@ Full methodology: [methodology.md](methodology.md).
   month = {4},
   day = {29},
   publisher = {GitHub},
-  url = {https://github.com/chai-check/mini-shai-hulud-dragnet},
+  url = {https://github.com/copyleftdev/mini-shai-hulud-dragnet},
   license = {CC-BY-4.0}
 }
 ```
