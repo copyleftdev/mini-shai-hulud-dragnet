@@ -2,6 +2,8 @@
 
 # Mini Shai-Hulud Dragnet
 
+[![Tip my tokens](https://tokentip.to/badge/copyleftdev.svg?logo=1)](https://tokentip.to/@copyleftdev)
+
 ### Forensic dataset and dashboard for the 2026-04-29 TeamPCP npm supply-chain worm
 
 [![dataset](https://img.shields.io/badge/dataset-CC--BY--4.0-5cdfff?style=flat-square)](LICENSE-DATA)
